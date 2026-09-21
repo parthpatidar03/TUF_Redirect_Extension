@@ -17,7 +17,14 @@
   const CELL_CLASS = 'tufr-cell';
   const HEAD_CLASS = 'tufr-head';
   const LINKS_CLASS = 'tufr-links';
-  const COLUMN_WIDTH = '8.5rem';
+  /*
+   * Their Problem column is flex-1 with a 12rem floor, so once it bottoms out
+   * the table has only about 60px of slack before it starts scrolling and
+   * clipping the Resources column. The column is sized to fit inside that, and
+   * the links are icon-only for the same reason, which also matches their own
+   * icon-only Resources column.
+   */
+  const COLUMN_WIDTH = '3.5rem';
   const SVG_NS = 'http://www.w3.org/2000/svg';
 
   // Simple Icons brand marks, path data only. Built with the DOM rather than
@@ -102,6 +109,8 @@
     cell.style.flex = '0 0 ' + COLUMN_WIDTH;
     cell.style.width = COLUMN_WIDTH;
     cell.style.minWidth = COLUMN_WIDTH;
+    cell.style.paddingLeft = '2px';
+    cell.style.paddingRight = '2px';
   }
 
   /** The column sits just before Resources, or last if there is no such cell. */
