@@ -70,9 +70,17 @@
     return Object.prototype.hasOwnProperty.call(obj, key) ? obj[key] : undefined;
   }
 
+  // The longest title in the practice catalogue is 84 characters. Anything far
+  // past that is not a problem title, and normalising a huge string costs
+  // super-linear time, so it is rejected before any work happens.
+  const MAX_TITLE = 200;
+
   /** Strip list numbering and badge text from a raw DOM title. */
   function cleanTitle(raw) {
-    let t = String(raw || '').replace(/\s+/g, ' ').trim();
+    if (raw === null || raw === undefined) return '';
+    const input = String(raw);
+    if (input.length > MAX_TITLE) return '';
+    let t = input.replace(/\s+/g, ' ').trim();
     t = t.replace(/^\d{1,4}\s*[.)]\s*/, '');
     let prev;
     do {
@@ -84,7 +92,7 @@
 
   /** Reduce a title to a comparable key. */
   function normalize(title, expand) {
-    const t = String(title || '')
+    const t = (title === null || title === undefined ? '' : String(title))
       .toLowerCase()
       .replace(/[‘’ʼ']/g, '')
       .replace(/&/g, ' and ')
@@ -142,18 +150,17 @@
     return seen.filter(Boolean);
   }
 
-  /** Token set used for fuzzy comparison: stop words dropped, roman numerals folded. */
-  function tokenSet(normalized) {
-    const set = new Set();
+  /**
+   * Order-insensitive key. Repeats are kept, or "Once Once, Once Twice" would
+   * share a key with "Once Twice".
+   */
+  function tokenKey(normalized) {
+    const words = [];
     String(normalized || '').split(' ').forEach(function (w) {
       if (!w || STOP_WORDS.has(w)) return;
-      set.add(own(ROMAN, w) || w);
+      words.push(own(ROMAN, w) || w);
     });
-    return set;
-  }
-
-  function tokenKey(normalized) {
-    return Array.from(tokenSet(normalized)).sort().join(' ');
+    return words.sort().join(' ');
   }
 
   /** Wraps a "normalised title -> slug" map with token and fuzzy lookups. */
@@ -249,7 +256,6 @@
     cleanTitle: cleanTitle,
     normalize: normalize,
     variants: variants,
-    tokenKey: tokenKey,
-    tokenSet: tokenSet
+    tokenKey: tokenKey
   };
 });
