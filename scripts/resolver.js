@@ -11,7 +11,7 @@
 (function (root, factory) {
   const api = factory();
   if (typeof module === 'object' && module.exports) module.exports = api;
-  else root.DsaBridgeResolver = api;
+  else root.TufRedirectResolver = api;
 })(typeof self !== 'undefined' ? self : globalThis, function () {
   'use strict';
 
@@ -50,8 +50,18 @@
     'at', 'on', 'is', 'are', 'be', 'using', 'given', 'into', 'its', 'it'
   ]);
 
-  // Badge text that can end up glued to the title when the DOM is read naively.
-  const BADGE_WORDS = /\s*(core|basic|pro|potd|easy|medium|hard|solved|unsolved|revision|new)\s*$/i;
+  /*
+   * Badge text that can end up glued to the title when the DOM is read naively,
+   * as in "Grid unique pathsCore".
+   *
+   * The boundary matters: a bare /core$/i also fires inside "Maximum Linear
+   * Stock Score" and leaves "Maximum Linear Stock S". So a badge is only
+   * stripped when it is a separate word, or when it follows a lower-case letter
+   * — which is what glued chip text always looks like, because the chips
+   * themselves render capitalised.
+   */
+  const BADGE_WORDS =
+    /(?:\s+|(?<=[a-z]))(?:Core|Basic|Pro|POTD|Easy|Medium|Hard|Solved|Unsolved|Revision|New)\s*$/;
 
   const ROMAN = { i: '1', ii: '2', iii: '3', iv: '4', v: '5', vi: '6' };
 
@@ -149,11 +159,21 @@
   /** Wraps a "normalised title -> slug" map with token and fuzzy lookups. */
   function Index(byName) {
     this.byName = byName || {};
+    /*
+     * Token lookup ignores word order, which is the point — but that makes
+     * "Roman to Integer" and "Integer to Roman" the same key, along with
+     * "Construct String from Binary Tree" / "Construct Binary Tree from String"
+     * and six other inverted pairs. Keeping whichever came first would emit a
+     * confident link to the opposite problem, so a collision drops the key and
+     * those titles fall through to search.
+     */
     this.byTokens = new Map();
     const self = this;
     Object.keys(this.byName).forEach(function (norm) {
       const key = tokenKey(norm);
-      if (!self.byTokens.has(key)) self.byTokens.set(key, own(self.byName, norm));
+      const slug = own(self.byName, norm);
+      if (!self.byTokens.has(key)) self.byTokens.set(key, slug);
+      else if (self.byTokens.get(key) !== slug) self.byTokens.set(key, null);
     });
   }
 
