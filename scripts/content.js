@@ -30,9 +30,8 @@
   function titleOf(cell) {
     const node = cell.querySelector('[class*="problemTitle"]') || cell;
     const clone = node.cloneNode(true);
-    clone.querySelectorAll('svg, [class*="difficultyTag"], [class*="statusIcon"]').forEach(function (el) {
-      el.remove();
-    });
+    clone.querySelectorAll('svg, [class*="difficultyTag"], [class*="statusIcon"], .' + CONTAINER_CLASS)
+      .forEach(function (el) { el.remove(); });
     Array.prototype.forEach.call(clone.querySelectorAll('*'), function (el) {
       const text = el.textContent.trim().toLowerCase();
       if (['core', 'basic', 'pro', 'potd', 'easy', 'medium', 'hard', 'new'].indexOf(text) !== -1) el.remove();
@@ -67,14 +66,24 @@
     return box;
   }
 
+  /**
+   * Badges are keyed to the title they were built from rather than to a "done"
+   * flag. Today the table swaps whole cells when the page changes, but if it
+   * ever re-uses a cell and only rewrites its text, this replaces the badges
+   * instead of leaving ones that point at the previous problem.
+   */
   function decorate(cell) {
-    if (cell.hasAttribute(MARK)) return;
     const raw = titleOf(cell);
     if (!raw || raw.length < 2) return;
+    if (cell.getAttribute(MARK) === raw) return;
+
     const match = resolver.resolve(raw);
     if (!match) return;
 
-    cell.setAttribute(MARK, '');
+    const stale = cell.querySelector('.' + CONTAINER_CLASS);
+    if (stale) stale.remove();
+
+    cell.setAttribute(MARK, raw);
     const anchor = cell.querySelector('[class*="problemMain"]') ||
       cell.querySelector('[class*="problemTitle"]')?.parentNode ||
       cell;
@@ -88,10 +97,13 @@
     // Individual problem page: /practice/dsa/<slug>
     if (/^\/practice\/[a-z]+\/[^/]+/.test(location.pathname)) {
       const heading = document.querySelector('h1');
-      if (heading && !heading.hasAttribute(MARK)) {
-        const match = resolver.resolve(heading.textContent.trim());
+      const raw = heading && heading.textContent.trim();
+      if (raw && heading.getAttribute(MARK) !== raw) {
+        const match = resolver.resolve(raw);
         if (match) {
-          heading.setAttribute(MARK, '');
+          const stale = heading.nextElementSibling;
+          if (stale && stale.classList.contains(CONTAINER_CLASS)) stale.remove();
+          heading.setAttribute(MARK, raw);
           const box = buildContainer(match);
           box.classList.add('dsab-links--heading');
           heading.insertAdjacentElement('afterend', box);
