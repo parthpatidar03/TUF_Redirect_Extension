@@ -1,0 +1,113 @@
+<!doctype html>
+<!--
+  Offline copy of takeUforward's practice table markup, used to exercise the
+  content script without loading the extension into Chrome.
+    node tools/dev-server.mjs  ->  http://localhost:8787/tools/fixture.html
+-->
+<html lang="en" class="dark">
+<head>
+<meta charset="utf-8">
+<title>DSA Bridge fixture</title>
+<style>
+  :root {
+    --color-background: #070709; --color-foreground: #fcfcfd; --color-card: #13161b;
+    --color-card-3: #181b21; --color-border: #24272e; --color-text-secondary: #c1c4cc;
+    --color-brand-primary: #327cf6; --color-brand-primary-bg-2: #111827; --radius-sm: 4px;
+  }
+  body { margin: 0; padding: 32px; background: var(--color-background); color: var(--color-foreground);
+         font-family: Geist, system-ui, sans-serif; font-size: 14px; }
+  h2 { font-size: 15px; font-weight: 600; margin: 0 0 16px; }
+  table { width: 820px; border-collapse: collapse; }
+  th { text-align: left; font-size: 12px; font-weight: 500; padding: 8px; border-bottom: 1px solid var(--color-border); }
+  .bodyRow { border-bottom: 1px solid var(--color-border); cursor: pointer; }
+  .bodyRow:hover { background: #0f1115; }
+  .bodyCell { padding: 10px 8px; vertical-align: middle; }
+  .PracticeProblemTable-module__78o5uG__problemCell { display: flex; gap: 8px; align-items: flex-start; }
+  .PracticeProblemTable-module__78o5uG__problemTitle { font-size: 12px; font-weight: 600; }
+  .PracticeProblemTable-module__78o5uG__difficultyTag { font-size: 10px; border: 1px solid var(--color-border);
+        background: #2a2318; color: #e0a33a; border-radius: 4px; padding: 1px 6px; margin-left: 6px; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; border: 1.2px solid #3a3f49; margin-top: 2px; flex: 0 0 auto; }
+  #log { margin-top: 24px; font-family: ui-monospace, monospace; font-size: 12px; color: var(--color-text-secondary); white-space: pre; }
+</style>
+</head>
+<body>
+<h2>Practice table fixture</h2>
+<table>
+  <thead><tr><th>Problem</th><th>Difficulty</th></tr></thead>
+  <tbody>
+    <tr class="bodyRow SubjectPractice-module__DUZUrq__problemRowClickable" role="link" tabindex="0">
+      <td class="bodyCell" data-label="Problem">
+        <div class="PracticeProblemTable-module__78o5uG__problemCell"><span class="dot"></span>
+          <div class="PracticeProblemTable-module__78o5uG__problemMain">
+            <span class="PracticeProblemTable-module__78o5uG__problemTitle">1. Two Sum</span>
+          </div>
+        </div>
+      </td>
+      <td class="bodyCell" data-label="Difficulty"><span class="PracticeProblemTable-module__78o5uG__difficultyTag">Basic</span></td>
+    </tr>
+    <tr class="bodyRow SubjectPractice-module__DUZUrq__problemRowClickable" role="link" tabindex="0">
+      <td class="bodyCell" data-label="Problem">
+        <div class="PracticeProblemTable-module__78o5uG__problemCell"><span class="dot"></span>
+          <div class="PracticeProblemTable-module__78o5uG__problemMain">
+            <span class="PracticeProblemTable-module__78o5uG__problemTitle">3. Reverse a LL</span>
+          </div>
+        </div>
+      </td>
+      <td class="bodyCell" data-label="Difficulty"><span class="PracticeProblemTable-module__78o5uG__difficultyTag">Core</span></td>
+    </tr>
+    <!-- Title span with the difficulty chip nested inside it, as the SubjectPractice variant renders. -->
+    <tr class="bodyRow SubjectPractice-module__DUZUrq__problemRowClickable" role="link" tabindex="0">
+      <td class="bodyCell" data-label="Problem">
+        <div class="PracticeProblemTable-module__78o5uG__problemCell"><span class="dot"></span>
+          <div class="PracticeProblemTable-module__78o5uG__problemMain">
+            <span class="PracticeProblemTable-module__78o5uG__problemTitle">17. Grid unique paths<span class="PracticeProblemTable-module__78o5uG__difficultyTag">Core</span></span>
+          </div>
+        </div>
+      </td>
+      <td class="bodyCell" data-label="Difficulty"><span class="PracticeProblemTable-module__78o5uG__difficultyTag">Core</span></td>
+    </tr>
+    <tr class="bodyRow SubjectPractice-module__DUZUrq__problemRowClickable" role="link" tabindex="0">
+      <td class="bodyCell" data-label="Problem">
+        <div class="PracticeProblemTable-module__78o5uG__problemCell"><span class="dot"></span>
+          <div class="PracticeProblemTable-module__78o5uG__problemMain">
+            <span class="PracticeProblemTable-module__78o5uG__problemTitle">893. Express Number as Sum of Two Primes<span class="PracticeProblemTable-module__78o5uG__difficultyTag">POTD</span></span>
+          </div>
+        </div>
+      </td>
+      <td class="bodyCell" data-label="Difficulty"><span class="PracticeProblemTable-module__78o5uG__difficultyTag">Core</span></td>
+    </tr>
+    <tr class="bodyRow SubjectPractice-module__DUZUrq__problemRowClickable" role="link" tabindex="0">
+      <td class="bodyCell" data-label="Problem">
+        <div class="PracticeProblemTable-module__78o5uG__problemCell"><span class="dot"></span>
+          <div class="PracticeProblemTable-module__78o5uG__problemMain">
+            <span class="PracticeProblemTable-module__78o5uG__problemTitle">18. Maximum Depth in BT</span>
+          </div>
+        </div>
+      </td>
+      <td class="bodyCell" data-label="Difficulty"><span class="PracticeProblemTable-module__78o5uG__difficultyTag">Basic</span></td>
+    </tr>
+  </tbody>
+</table>
+<div id="log"></div>
+
+<script>
+  // Row click behaviour, so we can prove a badge click does not open the row.
+  window.rowClicks = 0;
+  document.querySelectorAll('tr[role="link"]').forEach(function (tr) {
+    tr.addEventListener('click', function () { window.rowClicks++; });
+  });
+
+  // Minimal stand-in for the extension APIs.
+  window.chrome = {
+    runtime: { getURL: function (p) { return '/' + p; } },
+    storage: {
+      sync: { get: function (keys, cb) { cb({ showLeetcode: true, showGfg: true }); } },
+      onChanged: { addListener: function () {} }
+    }
+  };
+</script>
+<link rel="stylesheet" href="/styles/content.css">
+<script src="/scripts/resolver.js"></script>
+<script src="/scripts/content.js"></script>
+</body>
+</html>
