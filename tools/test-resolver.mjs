@@ -54,6 +54,7 @@ const expectations = [
   ['9. K-th Largest element in an array', 'kth-largest-element-in-an-array'],
   ['27. Median of 2 sorted arrays', 'median-of-two-sorted-arrays'],
   ['24. Jump Game - I', 'jump-game'],
+  ['114. Maximum sum of non adjacent elements', 'house-robber'],
   ['16. Longest Substring Without Repeating Characters', 'longest-substring-without-repeating-characters']
 ];
 
@@ -62,12 +63,24 @@ const expectations = [
 const mustSearch = [
   'Binary Tree to Doubly Linked List',
   'Check if the Array is Sorted I',
-  '893. Express Number as Sum of Two Primes'
+  '893. Express Number as Sum of Two Primes',
+  'Highest Occurring Element in an Array',   // mode, not LeetCode's majority element
+  'Distance of nearest cell having one',     // LeetCode 542 measures distance to a zero
+  'Left Rotate Array by K Places'            // LeetCode 189 rotates the other way
+];
+
+// GeeksforGeeks slugs that must resolve, since the alias data that used to
+// supply them was removed for being unreliable.
+const gfgExpectations = [
+  ['190. Detect a cycle in an undirected graph', 'detect-cycle-in-an-undirected-graph'],
+  ['187. Minimum coins', 'number-of-coins1824'],
+  ['50. Best time to buy and sell stock', 'buy-stock-2'],
+  ['3. Reverse a LL', 'reverse-a-linked-list']
 ];
 
 // Floor, not a target: a data refresh that silently loses half the index
 // should fail here rather than ship as a quieter extension.
-const FLOOR = { leetcode: 780, gfg: 320, either: 900 };
+const FLOOR = { leetcode: 780, gfg: 110, either: 820 };
 
 let failed = 0;
 if (exactLc < FLOOR.leetcode) { failed++; console.log('FAIL  leetcode coverage %d below floor %d', exactLc, FLOOR.leetcode); }
@@ -79,6 +92,13 @@ for (const [title, slug] of expectations) {
   if (!got.includes('/problems/' + slug + '/')) {
     failed++;
     console.log('FAIL  %s -> %s (wanted %s)', title, got, slug);
+  }
+}
+for (const [title, slug] of gfgExpectations) {
+  const got = resolver.resolve(title).gfg.url;
+  if (!got.includes('/problems/' + slug + '/')) {
+    failed++;
+    console.log('FAIL  %s -> %s (wanted gfg %s)', title, got, slug);
   }
 }
 for (const title of mustSearch) {

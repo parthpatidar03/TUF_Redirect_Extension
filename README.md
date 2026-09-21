@@ -28,17 +28,21 @@ Measured against all 1,369 problems in the practice catalogue:
 
 | Destination | Direct links |
 | --- | --- |
-| LeetCode | 798 (58%) |
-| GeeksforGeeks | 332 (24%) |
-| At least one | 927 (68%) |
+| LeetCode | 791 (58%) |
+| GeeksforGeeks | 117 (9%) |
+| At least one | 838 (61%) |
+
+GeeksforGeeks is lower because it publishes no problem index. Only slugs whose
+page title actually matches, plus a hand-checked list, are linked directly; the
+rest get a GeeksforGeeks search.
 
 Coverage is highest where it matters most — the A2Z core:
 
-| Slice | At least one direct link |
-| --- | --- |
-| First 100 problems | 99% |
-| First 250 problems | 95% |
-| First 500 problems | 97% |
+| Slice | LeetCode | At least one |
+| --- | --- | --- |
+| First 100 problems | 98% | 98% |
+| First 250 problems | 78% | 90% |
+| First 500 problems | 86% | 93% |
 
 The remainder are takeUforward or GeeksforGeeks originals with no LeetCode
 equivalent, where a search link is the correct answer.
