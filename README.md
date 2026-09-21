@@ -1,4 +1,4 @@
-# TUF Redirect
+# TUF External Link Redirect
 
 Puts LeetCode and GeeksforGeeks links back next to every problem on
 [takeUforward](https://takeuforward.org)'s DSA practice sheets.
@@ -28,9 +28,9 @@ Measured against all 1,369 problems in the practice catalogue:
 
 | Destination | Direct links |
 | --- | --- |
-| LeetCode | 797 (58%) |
+| LeetCode | 798 (58%) |
 | GeeksforGeeks | 332 (24%) |
-| At least one | 926 (68%) |
+| At least one | 927 (68%) |
 
 Coverage is highest where it matters most — the A2Z core:
 
