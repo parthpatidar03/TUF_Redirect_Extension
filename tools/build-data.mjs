@@ -80,24 +80,15 @@ function buildOverrides(leetcodeIndex, gfgSlugs) {
   return out;
 }
 
-/** The popup's catalogue, derived from the same fixture the coverage test uses. */
-function buildProblems() {
-  const rows = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'tuf-problems.json'), 'utf8'));
-  return rows.map((row) => [row.t, row.d]);
-}
-
 const leetcode = await buildLeetcode();
 const { index: gfg, slugs: gfgSlugs } = readGfg();
 const overrides = buildOverrides(leetcode, gfgSlugs);
-const problems = buildProblems();
 
 const dataDir = path.join(root, 'data');
 fs.writeFileSync(path.join(dataDir, 'leetcode.json'), JSON.stringify(leetcode));
 fs.writeFileSync(path.join(dataDir, 'gfg.json'), JSON.stringify(gfg));
 fs.writeFileSync(path.join(dataDir, 'overrides.json'), JSON.stringify(overrides, null, 1));
-fs.writeFileSync(path.join(dataDir, 'problems.json'), JSON.stringify(problems));
 
 console.log('leetcode.json  %d titles', Object.keys(leetcode).length);
 console.log('gfg.json       %d titles', Object.keys(gfg).length);
 console.log('overrides.json %d titles', Object.keys(overrides).length);
-console.log('problems.json  %d problems', problems.length);
