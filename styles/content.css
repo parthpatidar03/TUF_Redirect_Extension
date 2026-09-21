@@ -13,6 +13,20 @@
   margin-top: 5px;
 }
 
+/*
+ * takeUforward lays the problem cell out as a flex row, so an appended child
+ * would sit beside the title. Claim a full line instead, and let the container
+ * wrap only on the rows we have actually touched.
+ */
+.dsab-links {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+:where(div):has(> .dsab-links) {
+  flex-wrap: wrap;
+}
+
 .dsab-links--heading {
   margin-top: 10px;
   margin-bottom: 4px;
