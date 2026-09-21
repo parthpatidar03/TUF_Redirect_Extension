@@ -2378,5 +2378,95 @@
   "slug": "maximum-triple-product",
   "name": "Maximum Score Using Neighbor Products",
   "titles": []
+ },
+ {
+  "slug": "bridge-edge-in-graph",
+  "name": "Bridge Edge in a Graph",
+  "titles": []
+ },
+ {
+  "slug": "buy-stock-2",
+  "name": "Stock Buy and Sell – Max one Transaction Allowed",
+  "titles": []
+ },
+ {
+  "slug": "detect-cycle-in-a-directed-graph",
+  "name": "Directed Graph Cycle",
+  "titles": []
+ },
+ {
+  "slug": "detect-cycle-in-an-undirected-graph",
+  "name": "Undirected Graph Cycle",
+  "titles": []
+ },
+ {
+  "slug": "factorial5739",
+  "name": "Factorial",
+  "titles": []
+ },
+ {
+  "slug": "find-median-in-a-stream-1587115620",
+  "name": "Find Median in a Stream",
+  "titles": []
+ },
+ {
+  "slug": "implement-lower-bound",
+  "name": "Implement Lower Bound",
+  "titles": []
+ },
+ {
+  "slug": "implement-upper-bound",
+  "name": "Implement Upper Bound",
+  "titles": []
+ },
+ {
+  "slug": "left-view-of-binary-tree",
+  "name": "Left View of Binary Tree",
+  "titles": []
+ },
+ {
+  "slug": "maximum-of-minimum-for-every-window-size3453",
+  "name": "Max of Min for Every Window Size",
+  "titles": []
+ },
+ {
+  "slug": "median-of-2-sorted-arrays-of-different-sizes",
+  "name": "Median of 2 Sorted Arrays of Different Sizes",
+  "titles": []
+ },
+ {
+  "slug": "number-of-coins1824",
+  "name": "Coin Change (Minimum Coins)",
+  "titles": []
+ },
+ {
+  "slug": "permutations-of-a-given-string2041",
+  "name": "Distinct Permutations of a String",
+  "titles": []
+ },
+ {
+  "slug": "search-an-element-in-an-array-1587115621",
+  "name": "Array Search",
+  "titles": []
+ },
+ {
+  "slug": "sort-a-stack",
+  "name": "Sort a stack",
+  "titles": []
+ },
+ {
+  "slug": "subset-sum-problem2014",
+  "name": "Partition Equal Subset Sum",
+  "titles": []
+ },
+ {
+  "slug": "subsets-1613027340",
+  "name": "Subsets",
+  "titles": []
+ },
+ {
+  "slug": "trie-insert-and-search0651",
+  "name": "Implement Trie",
+  "titles": []
  }
 ]

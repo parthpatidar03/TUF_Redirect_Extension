@@ -6,16 +6,19 @@
   "l": "binary-tree-level-order-traversal"
  },
  "trapping rainwater": {
-  "l": "trapping-rain-water"
+  "l": "trapping-rain-water",
+  "g": "trapping-rain-water-1587115621"
  },
  "trie implementation and operations": {
-  "l": "implement-trie-prefix-tree"
+  "l": "implement-trie-prefix-tree",
+  "g": "trie-insert-and-search0651"
  },
  "trie implementation and advanced operations": {
   "l": "implement-trie-ii-prefix-tree"
  },
  "kadanes algorithm": {
-  "l": "maximum-subarray"
+  "l": "maximum-subarray",
+  "g": "kadanes-algorithm-1587115620"
  },
  "count the number of set bits": {
   "l": "number-of-1-bits"
@@ -24,7 +27,8 @@
   "l": "unique-paths"
  },
  "rotten oranges": {
-  "l": "rotting-oranges"
+  "l": "rotting-oranges",
+  "g": "rotten-oranges2536"
  },
  "maximum path sum": {
   "l": "binary-tree-maximum-path-sum"
@@ -45,10 +49,12 @@
   "l": "binary-tree-postorder-traversal"
  },
  "morris inorder traversal": {
-  "l": "binary-tree-inorder-traversal"
+  "l": "binary-tree-inorder-traversal",
+  "g": "inorder-traversal"
  },
  "morris preorder traversal": {
-  "l": "binary-tree-preorder-traversal"
+  "l": "binary-tree-preorder-traversal",
+  "g": "preorder-traversal"
  },
  "kth smallest and largest element in bst": {
   "l": "kth-smallest-element-in-a-bst"
@@ -104,9 +110,6 @@
  "reverse a number": {
   "l": "reverse-integer"
  },
- "next greater element": {
-  "l": "next-greater-element-i"
- },
  "check for symmetrical bts": {
   "l": "symmetric-tree"
  },
@@ -153,10 +156,12 @@
   "l": "valid-parentheses"
  },
  "power set": {
-  "l": "subsets"
+  "l": "subsets",
+  "g": "subsets-1613027340"
  },
  "power set bit manipulation": {
-  "l": "subsets"
+  "l": "subsets",
+  "g": "subsets-1613027340"
  },
  "find the intersection point of y ll": {
   "l": "intersection-of-two-linked-lists"
@@ -171,7 +176,8 @@
   "l": "delete-node-in-a-linked-list"
  },
  "minimum coins": {
-  "l": "coin-change"
+  "l": "coin-change",
+  "g": "number-of-coins1824"
  },
  "reverse every word in a string": {
   "l": "reverse-words-in-a-string"
@@ -198,10 +204,8 @@
   "l": "linked-list-cycle-ii"
  },
  "find median in a stream": {
-  "l": "find-median-from-data-stream"
- },
- "left rotate array by k places": {
-  "l": "rotate-array"
+  "l": "find-median-from-data-stream",
+  "g": "find-median-in-a-stream-1587115620"
  },
  "move zeros to end": {
   "l": "move-zeroes"
@@ -210,13 +214,15 @@
   "l": "find-the-difference-of-two-arrays"
  },
  "celebrity problem": {
-  "l": "find-the-celebrity"
+  "l": "find-the-celebrity",
+  "g": "the-celebrity-problem"
  },
  "clone a ll with random and next pointer": {
   "l": "copy-list-with-random-pointer"
  },
  "bridges in graph": {
-  "l": "critical-connections-in-a-network"
+  "l": "critical-connections-in-a-network",
+  "g": "bridge-edge-in-graph"
  },
  "merge two sorted arrays without extra space": {
   "l": "merge-sorted-array"
@@ -245,17 +251,8 @@
  "check if a number is power of 2 or not": {
   "l": "power-of-two"
  },
- "highest occurring element in an array": {
-  "l": "majority-element"
- },
- "shortest distance in a binary maze": {
-  "l": "shortest-path-in-binary-matrix"
- },
  "count of subarrays with sum divisible by k": {
   "l": "subarray-sums-divisible-by-k"
- },
- "distance of nearest cell having one": {
-  "l": "01-matrix"
  },
  "correct bst with two nodes swapped": {
   "l": "recover-binary-search-tree"
@@ -265,9 +262,6 @@
  },
  "find the smallest divisor": {
   "l": "find-the-smallest-divisor-given-a-threshold"
- },
- "different ways to evaluate a boolean expression": {
-  "l": "different-ways-to-add-parentheses"
  },
  "number of longest increasing subsequences": {
   "l": "number-of-longest-increasing-subsequence"
@@ -294,7 +288,7 @@
   "l": "construct-binary-tree-from-inorder-and-postorder-traversal"
  },
  "maximum sum of non adjacent elements": {
-  "l": "maximum-sum-of-subsequence-with-non-adjacent-elements"
+  "l": "house-robber"
  },
  "print all nodes at a distance of k in bt": {
   "l": "all-nodes-distance-k-in-binary-tree"
@@ -325,5 +319,116 @@
  },
  "routes to climb a rectangular grid": {
   "l": "count-routes-to-climb-a-rectangular-grid"
+ },
+ "reverse a ll": {
+  "g": "reverse-a-linked-list"
+ },
+ "number of islands": {
+  "g": "find-the-number-of-islands"
+ },
+ "maximum depth in bt": {
+  "g": "height-of-binary-tree"
+ },
+ "median of 2 sorted arrays": {
+  "g": "median-of-2-sorted-arrays-of-different-sizes"
+ },
+ "best time to buy and sell stock": {
+  "g": "buy-stock-2"
+ },
+ "subsets i": {
+  "g": "subsets-1613027340"
+ },
+ "partition equal subset sum": {
+  "g": "subset-sum-problem2014"
+ },
+ "lower bound": {
+  "g": "implement-lower-bound"
+ },
+ "upper bound": {
+  "g": "implement-upper-bound"
+ },
+ "linear search": {
+  "g": "search-an-element-in-an-array-1587115621"
+ },
+ "factorial of a given number": {
+  "g": "factorial5739"
+ },
+ "detect a cycle in an undirected graph": {
+  "g": "detect-cycle-in-an-undirected-graph"
+ },
+ "detect a cycle in a directed graph": {
+  "g": "detect-cycle-in-a-directed-graph"
+ },
+ "aggressive cows": {
+  "g": "aggressive-cows"
+ },
+ "book allocation problem": {
+  "g": "allocate-minimum-number-of-pages0937"
+ },
+ "job sequencing problem": {
+  "g": "job-sequencing-problem-1587115620"
+ },
+ "rod cutting problem": {
+  "g": "rod-cutting0840"
+ },
+ "bellman ford algorithm": {
+  "g": "distance-from-the-source-bellman-ford-algorithm"
+ },
+ "dijkstras algorithm": {
+  "g": "implementing-dijkstra-set-1-adjacency-matrix"
+ },
+ "topological sort or kahns algorithm": {
+  "g": "topological-sort"
+ },
+ "kosarajus algorithm": {
+  "g": "strongly-connected-components-kosarajus-algo"
+ },
+ "find the mst weight": {
+  "g": "minimum-spanning-tree"
+ },
+ "bottom view of bt": {
+  "g": "bottom-view-of-binary-tree"
+ },
+ "top view of bt": {
+  "g": "top-view-of-binary-tree"
+ },
+ "boundary traversal": {
+  "g": "boundary-traversal-of-binary-tree"
+ },
+ "next greater element": {
+  "g": "next-larger-element-1587115620"
+ },
+ "sort a stack": {
+  "g": "sort-a-stack"
+ },
+ "flattening of ll": {
+  "g": "flattening-a-linked-list"
+ },
+ "m coloring problem": {
+  "g": "m-coloring-problem-1587115620"
+ },
+ "matrix chain multiplication": {
+  "g": "matrix-chain-multiplication0303"
+ },
+ "fractional knapsack": {
+  "g": "fractional-knapsack-1587115620"
+ },
+ "0 and 1 knapsack": {
+  "g": "0-1-knapsack-problem0945"
+ },
+ "permutations of a string": {
+  "g": "permutations-of-a-given-string2041"
+ },
+ "children sum property in binary tree": {
+  "g": "children-sum-parent"
+ },
+ "maximum of minimums for every window size": {
+  "g": "maximum-of-minimum-for-every-window-size3453"
+ },
+ "implement stack using arrays": {
+  "g": "implement-stack-using-array"
+ },
+ "implement queue using arrays": {
+  "g": "implement-queue-using-array"
  }
 }

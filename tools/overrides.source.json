@@ -1,114 +1,435 @@
 {
-  "_comment": "takeUforward title -> destination. LeetCode slugs are verified against data/leetcode.json by tools/build-data.mjs; the build fails on an unknown slug. Titles absent here fall back to automatic matching, then to site search.",
-
-  "Search X in sorted array": { "leetcode": "binary-search" },
-  "Level Order Traversal": { "leetcode": "binary-tree-level-order-traversal" },
-  "Trapping Rainwater": { "leetcode": "trapping-rain-water" },
-  "Trie Implementation and Operations": { "leetcode": "implement-trie-prefix-tree" },
-  "Trie Implementation and Advanced Operations": { "leetcode": "implement-trie-ii-prefix-tree" },
-  "Kadane's Algorithm": { "leetcode": "maximum-subarray" },
-  "Count the Number of Set Bits": { "leetcode": "number-of-1-bits" },
-  "Grid unique paths": { "leetcode": "unique-paths" },
-  "Rotten Oranges": { "leetcode": "rotting-oranges" },
-  "Maximum path sum": { "leetcode": "binary-tree-maximum-path-sum" },
-  "Detect a loop in LL": { "leetcode": "linked-list-cycle" },
-  "Implement Min Stack": { "leetcode": "min-stack" },
-  "Inorder Traversal": { "leetcode": "binary-tree-inorder-traversal" },
-  "Preorder Traversal": { "leetcode": "binary-tree-preorder-traversal" },
-  "Postorder Traversal": { "leetcode": "binary-tree-postorder-traversal" },
-  "Morris Inorder Traversal": { "leetcode": "binary-tree-inorder-traversal" },
-  "Morris Preorder Traversal": { "leetcode": "binary-tree-preorder-traversal" },
-  "Kth Smallest and Largest element in BST": { "leetcode": "kth-smallest-element-in-a-bst" },
-  "Sort an array of 0's 1's and 2's": { "leetcode": "sort-colors" },
-  "Reverse LL in group of given size K": { "leetcode": "reverse-nodes-in-k-group" },
-  "Maximum Product Subarray in an Array": { "leetcode": "maximum-product-subarray" },
-  "Check for balanced binary tree": { "leetcode": "balanced-binary-tree" },
-  "Right/Left View of BT": { "leetcode": "binary-tree-right-side-view" },
-  "Implement Queue using Stack": { "leetcode": "implement-queue-using-stacks" },
-  "Implement Stack using Queue": { "leetcode": "implement-stack-using-queues" },
-  "Serialize and De-serialize BT": { "leetcode": "serialize-and-deserialize-binary-tree" },
-  "Rotate matrix by 90 degrees": { "leetcode": "rotate-image" },
-  "Cheapest flight within K stops": { "leetcode": "cheapest-flights-within-k-stops" },
-  "Check if a tree is a BST or not": { "leetcode": "validate-binary-search-tree" },
-  "N Queen": { "leetcode": "n-queens" },
-  "Check if two trees are identical or not": { "leetcode": "same-tree" },
-  "Remove Nth node from the back of the LL": { "leetcode": "remove-nth-node-from-end-of-list" },
-  "Add two numbers in Linked List": { "leetcode": "add-two-numbers" },
-  "Longest Consecutive Sequence in an Array": { "leetcode": "longest-consecutive-sequence" },
-  "Reverse a number": { "leetcode": "reverse-integer" },
-  "Next Greater Element": { "leetcode": "next-greater-element-i" },
-  "Check for symmetrical BTs": { "leetcode": "symmetric-tree" },
-  "Print the matrix in spiral manner": { "leetcode": "spiral-matrix" },
-  "Segregate odd and even nodes in Linked List": { "leetcode": "odd-even-linked-list" },
-  "Find missing number": { "leetcode": "missing-number" },
-  "Merge Overlapping Subintervals": { "leetcode": "merge-intervals" },
-  "Kth largest element in a stream of running integers": { "leetcode": "kth-largest-element-in-a-stream" },
-  "Two sum in BST": { "leetcode": "two-sum-iv-input-is-a-bst" },
-  "Minimum time taken to burn the BT from a given Node": { "leetcode": "amount-of-time-for-binary-tree-to-be-infected" },
-  "Sort LL": { "leetcode": "sort-list" },
-  "Group Words by Anagrams": { "leetcode": "group-anagrams" },
-  "Largest BST in Binary Tree": { "leetcode": "largest-bst-subtree" },
-  "Rotate a LL": { "leetcode": "rotate-list" },
-  "Find Middle of Linked List": { "leetcode": "middle-of-the-linked-list" },
-  "Balanced Paranthesis": { "leetcode": "valid-parentheses" },
-  "Valid Paranthesis Checker": { "leetcode": "valid-parentheses" },
-  "Power Set": { "leetcode": "subsets" },
-  "Power Set Bit Manipulation": { "leetcode": "subsets" },
-  "Find the intersection point of Y LL": { "leetcode": "intersection-of-two-linked-lists" },
-  "Minimum insertions to make string palindrome": { "leetcode": "minimum-insertion-steps-to-make-a-string-palindrome" },
-  "Flood fill algorithm": { "leetcode": "flood-fill" },
-  "Delete Node in a Linked List O(1)": { "leetcode": "delete-node-in-a-linked-list" },
-  "Minimum coins": { "leetcode": "coin-change" },
-  "Reverse every word in a string": { "leetcode": "reverse-words-in-a-string" },
-  "Vertical Order Traversal": { "leetcode": "vertical-order-traversal-of-a-binary-tree" },
-  "Print root to leaf path in BT": { "leetcode": "binary-tree-paths" },
-  "Check if LL is palindrome or not": { "leetcode": "palindrome-linked-list" },
-  "Maximum Consecutive Ones": { "leetcode": "max-consecutive-ones" },
-  "Maximum Points on a Line": { "leetcode": "max-points-on-a-line" },
-  "Stock span problem": { "leetcode": "online-stock-span" },
-  "Find the starting point in LL": { "leetcode": "linked-list-cycle-ii" },
-  "Find Median in a Stream": { "leetcode": "find-median-from-data-stream" },
-  "Left Rotate Array by K Places": { "leetcode": "rotate-array" },
-  "Move Zeros to End": { "leetcode": "move-zeroes" },
-  "Set difference of two arrays": { "leetcode": "find-the-difference-of-two-arrays" },
-  "Celebrity Problem": { "leetcode": "find-the-celebrity" },
-  "Clone a LL with random and next pointer": { "leetcode": "copy-list-with-random-pointer" },
-  "Bridges in graph": { "leetcode": "critical-connections-in-a-network" },
-  "Merge two sorted arrays without extra space": { "leetcode": "merge-sorted-array" },
-  "Zig Zag or Spiral Traversal": { "leetcode": "binary-tree-zigzag-level-order-traversal" },
-  "Find the repeating and missing number": { "leetcode": "set-mismatch" },
-  "Count total nodes in a complete BT": { "leetcode": "count-complete-tree-nodes" },
-  "Best time to buy and sell stock with transaction fees": { "leetcode": "best-time-to-buy-and-sell-stock-with-transaction-fee" },
-  "Check if String is Palindrome or Not": { "leetcode": "valid-palindrome" },
-  "First and last occurrence": { "leetcode": "find-first-and-last-position-of-element-in-sorted-array" },
-  "Find the Position of a Substring within a String": { "leetcode": "find-the-index-of-the-first-occurrence-in-a-string" },
-  "Check if a Number is Power of 2 or Not": { "leetcode": "power-of-two" },
-  "Highest Occurring Element in an Array": { "leetcode": "majority-element" },
-  "Shortest Distance in a Binary Maze": { "leetcode": "shortest-path-in-binary-matrix" },
-  "Count of Subarrays with Sum Divisible by K": { "leetcode": "subarray-sums-divisible-by-k" },
-  "Distance of nearest cell having one": { "leetcode": "01-matrix" },
-  "Correct BST with two nodes swapped": { "leetcode": "recover-binary-search-tree" },
-  "Partition a set into two subsets with minimum absolute sum difference": { "leetcode": "last-stone-weight-ii" },
-  "Find the smallest divisor": { "leetcode": "find-the-smallest-divisor-given-a-threshold" },
-  "Different Ways to Evaluate a Boolean Expression": { "leetcode": "different-ways-to-add-parentheses" },
-  "Number of Longest Increasing Subsequences": { "leetcode": "number-of-longest-increasing-subsequence" },
-  "Count subarrays with given sum": { "leetcode": "subarray-sum-equals-k" },
-  "Finding Equilibrium Index in an Array": { "leetcode": "find-pivot-index" },
-  "K Nearest Integers": { "leetcode": "find-k-closest-elements" },
-  "Maximum Rectangles": { "leetcode": "maximal-rectangle" },
-  "Divide two numbers without multiplication and division": { "leetcode": "divide-two-integers" },
-
-  "Construct a BT from Preorder and Inorder": { "leetcode": "construct-binary-tree-from-preorder-and-inorder-traversal" },
-  "Construct a BT from Postorder and Inorder": { "leetcode": "construct-binary-tree-from-inorder-and-postorder-traversal" },
-  "Maximum sum of non adjacent elements": { "leetcode": "maximum-sum-of-subsequence-with-non-adjacent-elements" },
-  "Print all nodes at a distance of K in BT": { "leetcode": "all-nodes-distance-k-in-binary-tree" },
-  "Minimum days to make M bouquets": { "leetcode": "minimum-number-of-days-to-make-m-bouquets" },
-  "Insert a given node in BST": { "leetcode": "insert-into-a-binary-search-tree" },
-  "Critical and Pseudo-Critical Edges in MST": { "leetcode": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree" },
-  "Prison Cells State After N Days": { "leetcode": "prison-cells-after-n-days" },
-  "Maximal Range That Each Element is Maximal in It": { "leetcode": "maximal-range-that-each-element-is-maximum-in-it" },
-  "Minimum Time To Visit Houses": { "leetcode": "minimum-time-to-visit-all-houses" },
-  "Non Decreasing Arrays With Given Digit Sums": { "leetcode": "count-non-decreasing-arrays-with-given-digit-sums" },
-  "Maximum Value in a Constrained Sequence": { "leetcode": "find-maximum-value-in-a-constrained-sequence" },
-  "Routes to Climb a Rectangular Grid": { "leetcode": "count-routes-to-climb-a-rectangular-grid" }
+  "_comment": "takeUforward title -> destination. Every slug is checked by tools/build-data.mjs: LeetCode against the live index, GeeksforGeeks against tools/gfg-verified.json. The build fails on an unknown slug. Titles absent here fall back to automatic matching, then to site search.",
+  "Search X in sorted array": {
+    "leetcode": "binary-search"
+  },
+  "Level Order Traversal": {
+    "leetcode": "binary-tree-level-order-traversal"
+  },
+  "Trapping Rainwater": {
+    "leetcode": "trapping-rain-water",
+    "gfg": "trapping-rain-water-1587115621"
+  },
+  "Trie Implementation and Operations": {
+    "leetcode": "implement-trie-prefix-tree",
+    "gfg": "trie-insert-and-search0651"
+  },
+  "Trie Implementation and Advanced Operations": {
+    "leetcode": "implement-trie-ii-prefix-tree"
+  },
+  "Kadane's Algorithm": {
+    "leetcode": "maximum-subarray",
+    "gfg": "kadanes-algorithm-1587115620"
+  },
+  "Count the Number of Set Bits": {
+    "leetcode": "number-of-1-bits"
+  },
+  "Grid unique paths": {
+    "leetcode": "unique-paths"
+  },
+  "Rotten Oranges": {
+    "leetcode": "rotting-oranges",
+    "gfg": "rotten-oranges2536"
+  },
+  "Maximum path sum": {
+    "leetcode": "binary-tree-maximum-path-sum"
+  },
+  "Detect a loop in LL": {
+    "leetcode": "linked-list-cycle"
+  },
+  "Implement Min Stack": {
+    "leetcode": "min-stack"
+  },
+  "Inorder Traversal": {
+    "leetcode": "binary-tree-inorder-traversal"
+  },
+  "Preorder Traversal": {
+    "leetcode": "binary-tree-preorder-traversal"
+  },
+  "Postorder Traversal": {
+    "leetcode": "binary-tree-postorder-traversal"
+  },
+  "Morris Inorder Traversal": {
+    "leetcode": "binary-tree-inorder-traversal",
+    "gfg": "inorder-traversal"
+  },
+  "Morris Preorder Traversal": {
+    "leetcode": "binary-tree-preorder-traversal",
+    "gfg": "preorder-traversal"
+  },
+  "Kth Smallest and Largest element in BST": {
+    "leetcode": "kth-smallest-element-in-a-bst"
+  },
+  "Sort an array of 0's 1's and 2's": {
+    "leetcode": "sort-colors"
+  },
+  "Reverse LL in group of given size K": {
+    "leetcode": "reverse-nodes-in-k-group"
+  },
+  "Maximum Product Subarray in an Array": {
+    "leetcode": "maximum-product-subarray"
+  },
+  "Check for balanced binary tree": {
+    "leetcode": "balanced-binary-tree"
+  },
+  "Right/Left View of BT": {
+    "leetcode": "binary-tree-right-side-view"
+  },
+  "Implement Queue using Stack": {
+    "leetcode": "implement-queue-using-stacks"
+  },
+  "Implement Stack using Queue": {
+    "leetcode": "implement-stack-using-queues"
+  },
+  "Serialize and De-serialize BT": {
+    "leetcode": "serialize-and-deserialize-binary-tree"
+  },
+  "Rotate matrix by 90 degrees": {
+    "leetcode": "rotate-image"
+  },
+  "Cheapest flight within K stops": {
+    "leetcode": "cheapest-flights-within-k-stops"
+  },
+  "Check if a tree is a BST or not": {
+    "leetcode": "validate-binary-search-tree"
+  },
+  "N Queen": {
+    "leetcode": "n-queens"
+  },
+  "Check if two trees are identical or not": {
+    "leetcode": "same-tree"
+  },
+  "Remove Nth node from the back of the LL": {
+    "leetcode": "remove-nth-node-from-end-of-list"
+  },
+  "Add two numbers in Linked List": {
+    "leetcode": "add-two-numbers"
+  },
+  "Longest Consecutive Sequence in an Array": {
+    "leetcode": "longest-consecutive-sequence"
+  },
+  "Reverse a number": {
+    "leetcode": "reverse-integer"
+  },
+  "Check for symmetrical BTs": {
+    "leetcode": "symmetric-tree"
+  },
+  "Print the matrix in spiral manner": {
+    "leetcode": "spiral-matrix"
+  },
+  "Segregate odd and even nodes in Linked List": {
+    "leetcode": "odd-even-linked-list"
+  },
+  "Find missing number": {
+    "leetcode": "missing-number"
+  },
+  "Merge Overlapping Subintervals": {
+    "leetcode": "merge-intervals"
+  },
+  "Kth largest element in a stream of running integers": {
+    "leetcode": "kth-largest-element-in-a-stream"
+  },
+  "Two sum in BST": {
+    "leetcode": "two-sum-iv-input-is-a-bst"
+  },
+  "Minimum time taken to burn the BT from a given Node": {
+    "leetcode": "amount-of-time-for-binary-tree-to-be-infected"
+  },
+  "Sort LL": {
+    "leetcode": "sort-list"
+  },
+  "Group Words by Anagrams": {
+    "leetcode": "group-anagrams"
+  },
+  "Largest BST in Binary Tree": {
+    "leetcode": "largest-bst-subtree"
+  },
+  "Rotate a LL": {
+    "leetcode": "rotate-list"
+  },
+  "Find Middle of Linked List": {
+    "leetcode": "middle-of-the-linked-list"
+  },
+  "Balanced Paranthesis": {
+    "leetcode": "valid-parentheses"
+  },
+  "Valid Paranthesis Checker": {
+    "leetcode": "valid-parentheses"
+  },
+  "Power Set": {
+    "leetcode": "subsets",
+    "gfg": "subsets-1613027340"
+  },
+  "Power Set Bit Manipulation": {
+    "leetcode": "subsets",
+    "gfg": "subsets-1613027340"
+  },
+  "Find the intersection point of Y LL": {
+    "leetcode": "intersection-of-two-linked-lists"
+  },
+  "Minimum insertions to make string palindrome": {
+    "leetcode": "minimum-insertion-steps-to-make-a-string-palindrome"
+  },
+  "Flood fill algorithm": {
+    "leetcode": "flood-fill"
+  },
+  "Delete Node in a Linked List O(1)": {
+    "leetcode": "delete-node-in-a-linked-list"
+  },
+  "Minimum coins": {
+    "leetcode": "coin-change",
+    "gfg": "number-of-coins1824"
+  },
+  "Reverse every word in a string": {
+    "leetcode": "reverse-words-in-a-string"
+  },
+  "Vertical Order Traversal": {
+    "leetcode": "vertical-order-traversal-of-a-binary-tree"
+  },
+  "Print root to leaf path in BT": {
+    "leetcode": "binary-tree-paths"
+  },
+  "Check if LL is palindrome or not": {
+    "leetcode": "palindrome-linked-list"
+  },
+  "Maximum Consecutive Ones": {
+    "leetcode": "max-consecutive-ones"
+  },
+  "Maximum Points on a Line": {
+    "leetcode": "max-points-on-a-line"
+  },
+  "Stock span problem": {
+    "leetcode": "online-stock-span"
+  },
+  "Find the starting point in LL": {
+    "leetcode": "linked-list-cycle-ii"
+  },
+  "Find Median in a Stream": {
+    "leetcode": "find-median-from-data-stream",
+    "gfg": "find-median-in-a-stream-1587115620"
+  },
+  "Move Zeros to End": {
+    "leetcode": "move-zeroes"
+  },
+  "Set difference of two arrays": {
+    "leetcode": "find-the-difference-of-two-arrays"
+  },
+  "Celebrity Problem": {
+    "leetcode": "find-the-celebrity",
+    "gfg": "the-celebrity-problem"
+  },
+  "Clone a LL with random and next pointer": {
+    "leetcode": "copy-list-with-random-pointer"
+  },
+  "Bridges in graph": {
+    "leetcode": "critical-connections-in-a-network",
+    "gfg": "bridge-edge-in-graph"
+  },
+  "Merge two sorted arrays without extra space": {
+    "leetcode": "merge-sorted-array"
+  },
+  "Zig Zag or Spiral Traversal": {
+    "leetcode": "binary-tree-zigzag-level-order-traversal"
+  },
+  "Find the repeating and missing number": {
+    "leetcode": "set-mismatch"
+  },
+  "Count total nodes in a complete BT": {
+    "leetcode": "count-complete-tree-nodes"
+  },
+  "Best time to buy and sell stock with transaction fees": {
+    "leetcode": "best-time-to-buy-and-sell-stock-with-transaction-fee"
+  },
+  "Check if String is Palindrome or Not": {
+    "leetcode": "valid-palindrome"
+  },
+  "First and last occurrence": {
+    "leetcode": "find-first-and-last-position-of-element-in-sorted-array"
+  },
+  "Find the Position of a Substring within a String": {
+    "leetcode": "find-the-index-of-the-first-occurrence-in-a-string"
+  },
+  "Check if a Number is Power of 2 or Not": {
+    "leetcode": "power-of-two"
+  },
+  "Count of Subarrays with Sum Divisible by K": {
+    "leetcode": "subarray-sums-divisible-by-k"
+  },
+  "Correct BST with two nodes swapped": {
+    "leetcode": "recover-binary-search-tree"
+  },
+  "Partition a set into two subsets with minimum absolute sum difference": {
+    "leetcode": "last-stone-weight-ii"
+  },
+  "Find the smallest divisor": {
+    "leetcode": "find-the-smallest-divisor-given-a-threshold"
+  },
+  "Number of Longest Increasing Subsequences": {
+    "leetcode": "number-of-longest-increasing-subsequence"
+  },
+  "Count subarrays with given sum": {
+    "leetcode": "subarray-sum-equals-k"
+  },
+  "Finding Equilibrium Index in an Array": {
+    "leetcode": "find-pivot-index"
+  },
+  "K Nearest Integers": {
+    "leetcode": "find-k-closest-elements"
+  },
+  "Maximum Rectangles": {
+    "leetcode": "maximal-rectangle"
+  },
+  "Divide two numbers without multiplication and division": {
+    "leetcode": "divide-two-integers"
+  },
+  "Construct a BT from Preorder and Inorder": {
+    "leetcode": "construct-binary-tree-from-preorder-and-inorder-traversal"
+  },
+  "Construct a BT from Postorder and Inorder": {
+    "leetcode": "construct-binary-tree-from-inorder-and-postorder-traversal"
+  },
+  "Maximum sum of non adjacent elements": {
+    "leetcode": "house-robber"
+  },
+  "Print all nodes at a distance of K in BT": {
+    "leetcode": "all-nodes-distance-k-in-binary-tree"
+  },
+  "Minimum days to make M bouquets": {
+    "leetcode": "minimum-number-of-days-to-make-m-bouquets"
+  },
+  "Insert a given node in BST": {
+    "leetcode": "insert-into-a-binary-search-tree"
+  },
+  "Critical and Pseudo-Critical Edges in MST": {
+    "leetcode": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree"
+  },
+  "Prison Cells State After N Days": {
+    "leetcode": "prison-cells-after-n-days"
+  },
+  "Maximal Range That Each Element is Maximal in It": {
+    "leetcode": "maximal-range-that-each-element-is-maximum-in-it"
+  },
+  "Minimum Time To Visit Houses": {
+    "leetcode": "minimum-time-to-visit-all-houses"
+  },
+  "Non Decreasing Arrays With Given Digit Sums": {
+    "leetcode": "count-non-decreasing-arrays-with-given-digit-sums"
+  },
+  "Maximum Value in a Constrained Sequence": {
+    "leetcode": "find-maximum-value-in-a-constrained-sequence"
+  },
+  "Routes to Climb a Rectangular Grid": {
+    "leetcode": "count-routes-to-climb-a-rectangular-grid"
+  },
+  "Reverse a LL": {
+    "gfg": "reverse-a-linked-list"
+  },
+  "Number of islands": {
+    "gfg": "find-the-number-of-islands"
+  },
+  "Maximum Depth in BT": {
+    "gfg": "height-of-binary-tree"
+  },
+  "Median of 2 sorted arrays": {
+    "gfg": "median-of-2-sorted-arrays-of-different-sizes"
+  },
+  "Best time to buy and sell stock": {
+    "gfg": "buy-stock-2"
+  },
+  "Subsets I": {
+    "gfg": "subsets-1613027340"
+  },
+  "Partition equal subset sum": {
+    "gfg": "subset-sum-problem2014"
+  },
+  "Lower Bound": {
+    "gfg": "implement-lower-bound"
+  },
+  "Upper Bound": {
+    "gfg": "implement-upper-bound"
+  },
+  "Linear Search": {
+    "gfg": "search-an-element-in-an-array-1587115621"
+  },
+  "Factorial of a given number": {
+    "gfg": "factorial5739"
+  },
+  "Detect a cycle in an undirected graph": {
+    "gfg": "detect-cycle-in-an-undirected-graph"
+  },
+  "Detect a cycle in a directed graph": {
+    "gfg": "detect-cycle-in-a-directed-graph"
+  },
+  "Aggressive Cows": {
+    "gfg": "aggressive-cows"
+  },
+  "Book Allocation Problem": {
+    "gfg": "allocate-minimum-number-of-pages0937"
+  },
+  "Job sequencing Problem": {
+    "gfg": "job-sequencing-problem-1587115620"
+  },
+  "Rod cutting problem": {
+    "gfg": "rod-cutting0840"
+  },
+  "Bellman ford algorithm": {
+    "gfg": "distance-from-the-source-bellman-ford-algorithm"
+  },
+  "Dijkstra's algorithm": {
+    "gfg": "implementing-dijkstra-set-1-adjacency-matrix"
+  },
+  "Topological sort or Kahn's algorithm": {
+    "gfg": "topological-sort"
+  },
+  "Kosaraju's algorithm": {
+    "gfg": "strongly-connected-components-kosarajus-algo"
+  },
+  "Find the MST weight": {
+    "gfg": "minimum-spanning-tree"
+  },
+  "Bottom view of BT": {
+    "gfg": "bottom-view-of-binary-tree"
+  },
+  "Top View of BT": {
+    "gfg": "top-view-of-binary-tree"
+  },
+  "Boundary Traversal": {
+    "gfg": "boundary-traversal-of-binary-tree"
+  },
+  "Next Greater Element": {
+    "gfg": "next-larger-element-1587115620"
+  },
+  "Sort a Stack": {
+    "gfg": "sort-a-stack"
+  },
+  "Flattening of LL": {
+    "gfg": "flattening-a-linked-list"
+  },
+  "M Coloring Problem": {
+    "gfg": "m-coloring-problem-1587115620"
+  },
+  "Matrix chain multiplication": {
+    "gfg": "matrix-chain-multiplication0303"
+  },
+  "Fractional Knapsack": {
+    "gfg": "fractional-knapsack-1587115620"
+  },
+  "0 and 1 Knapsack": {
+    "gfg": "0-1-knapsack-problem0945"
+  },
+  "Permutations of a String": {
+    "gfg": "permutations-of-a-given-string2041"
+  },
+  "Children Sum Property in Binary Tree": {
+    "gfg": "children-sum-parent"
+  },
+  "Maximum of Minimums for Every Window Size": {
+    "gfg": "maximum-of-minimum-for-every-window-size3453"
+  },
+  "Implement Stack using Arrays": {
+    "gfg": "implement-stack-using-array"
+  },
+  "Implement Queue using Arrays": {
+    "gfg": "implement-queue-using-array"
+  }
 }

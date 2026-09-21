@@ -33,23 +33,29 @@ async function buildLeetcode() {
 /**
  * GeeksforGeeks has no public problem index, so tools/gfg-verified.json holds
  * slugs confirmed live together with the canonical name GfG renders for them.
+ *
+ * Only that canonical name is indexed. The file also carries the takeUforward
+ * titles that once pointed at each slug, but those came from a third-party list
+ * of "close enough" buckets: unrelated titles share one slug, and spot-checking
+ * found roughly one in ten sent people to a different problem — "Detect a cycle
+ * in an undirected graph" landed on Course Schedule, "Minimum coins" on the
+ * count-ways variant. They are kept for reference only. A takeUforward title
+ * that needs a slug goes in overrides.source.json, checked by hand.
  */
-function buildGfg() {
+function readGfg() {
   const rows = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'gfg-verified.json'), 'utf8'));
   const index = {};
-  // Canonical GfG names first, then the takeUforward-style titles that pointed
-  // at the same problem, so either naming resolves.
   for (const row of rows) {
-    for (const name of [row.name, ...(row.titles || [])]) {
-      const key = normalize(name, false);
-      if (key && !(key in index)) index[key] = row.slug;
-    }
+    const key = normalize(row.name, false);
+    if (key && !(key in index)) index[key] = row.slug;
   }
-  return index;
+  // Two problems can share a normalised name, so the slug set is wider than the
+  // index. Overrides are validated against the set.
+  return { index, slugs: new Set(rows.map((r) => r.slug)) };
 }
 
-function buildOverrides(leetcodeIndex) {
-  const known = new Set(Object.values(leetcodeIndex));
+function buildOverrides(leetcodeIndex, gfgSlugs) {
+  const knownLc = new Set(Object.values(leetcodeIndex));
   const manual = JSON.parse(fs.readFileSync(path.join(root, 'tools', 'overrides.source.json'), 'utf8'));
   const out = {};
   const unknown = [];
@@ -59,10 +65,13 @@ function buildOverrides(leetcodeIndex) {
     if (!key) continue;
     const entry = {};
     if (value.leetcode) {
-      if (!known.has(value.leetcode)) { unknown.push(`${title} -> ${value.leetcode}`); continue; }
-      entry.l = value.leetcode;
+      if (knownLc.has(value.leetcode)) entry.l = value.leetcode;
+      else unknown.push(`${title} -> leetcode/${value.leetcode}`);
     }
-    if (value.gfg) entry.g = value.gfg;
+    if (value.gfg) {
+      if (gfgSlugs.has(value.gfg)) entry.g = value.gfg;
+      else unknown.push(`${title} -> gfg/${value.gfg}`);
+    }
     if (Object.keys(entry).length) out[key] = entry;
   }
   if (unknown.length) {
@@ -78,8 +87,8 @@ function buildProblems() {
 }
 
 const leetcode = await buildLeetcode();
-const gfg = buildGfg();
-const overrides = buildOverrides(leetcode);
+const { index: gfg, slugs: gfgSlugs } = readGfg();
+const overrides = buildOverrides(leetcode, gfgSlugs);
 const problems = buildProblems();
 
 const dataDir = path.join(root, 'data');
