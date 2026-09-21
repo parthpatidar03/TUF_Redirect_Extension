@@ -1,0 +1,12 @@
+{
+  "name": "dsa-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "description": "Chrome extension that restores LeetCode and GeeksforGeeks links on takeUforward DSA practice pages.",
+  "license": "MIT",
+  "scripts": {
+    "build:data": "node tools/build-data.mjs",
+    "test": "node tools/test-resolver.mjs"
+  }
+}
