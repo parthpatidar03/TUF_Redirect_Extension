@@ -4,7 +4,7 @@
   "short_name": "TUF Redirect",
   "version": "1.0.0",
   "minimum_chrome_version": "105",
-  "description": "Adds direct LeetCode and GeeksforGeeks links to every problem on takeUforward's DSA practice sheets.",
+  "description": "Adds an External Link column to takeUforward's DSA practice sheets with direct LeetCode and GeeksforGeeks links.",
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",
