@@ -1,10 +1,10 @@
-# DSA Bridge
+# TUF Redirect
 
 Puts LeetCode and GeeksforGeeks links back next to every problem on
 [takeUforward](https://takeuforward.org)'s DSA practice sheets.
 
 takeUforward's redesign removed the external judge links its sheets used to
-carry. DSA Bridge adds them back as small badges under each problem title,
+carry. TUF Redirect adds them back as small badges under each problem title,
 styled with takeUforward's own design tokens so they look like part of the page.
 
 **Install from the Chrome Web Store — no setup, no cloning.**

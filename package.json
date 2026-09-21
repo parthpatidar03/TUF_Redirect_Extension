@@ -1,5 +1,5 @@
 {
-  "name": "dsa-bridge",
+  "name": "tuf-external-link-redirect",
   "version": "1.0.0",
   "private": true,
   "type": "commonjs",

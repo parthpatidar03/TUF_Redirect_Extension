@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "DSA Bridge - LeetCode & GFG Links",
-  "short_name": "DSA Bridge",
+  "name": "TUF External Link Redirect - LeetCode & GFG",
+  "short_name": "TUF Redirect",
   "version": "1.0.0",
   "description": "Adds direct LeetCode and GeeksforGeeks links to every problem on takeUforward's DSA practice sheets.",
   "icons": {
@@ -10,10 +10,11 @@
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "permissions": ["storage"],
-  "host_permissions": ["https://takeuforward.org/*"],
+  "permissions": [
+    "storage"
+  ],
   "action": {
-    "default_title": "DSA Bridge",
+    "default_title": "TUF Redirect",
     "default_popup": "popup/popup.html",
     "default_icon": {
       "16": "icons/icon16.png",
@@ -24,16 +25,29 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://takeuforward.org/*"],
-      "js": ["scripts/resolver.js", "scripts/content.js"],
-      "css": ["styles/content.css"],
+      "matches": [
+        "https://takeuforward.org/*"
+      ],
+      "js": [
+        "scripts/resolver.js",
+        "scripts/content.js"
+      ],
+      "css": [
+        "styles/content.css"
+      ],
       "run_at": "document_idle"
     }
   ],
   "web_accessible_resources": [
     {
-      "resources": ["data/leetcode.json", "data/gfg.json", "data/overrides.json"],
-      "matches": ["https://takeuforward.org/*"]
+      "resources": [
+        "data/leetcode.json",
+        "data/gfg.json",
+        "data/overrides.json"
+      ],
+      "matches": [
+        "https://takeuforward.org/*"
+      ]
     }
   ]
 }

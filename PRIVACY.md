@@ -1,10 +1,10 @@
-# Privacy Policy — DSA Bridge
+# Privacy Policy — TUF Redirect
 
 Last updated: 21 September 2026
 
 ## What we collect
 
-Nothing. DSA Bridge collects no personal or usage data of any kind.
+Nothing. TUF Redirect collects no personal or usage data of any kind.
 
 ## What the extension does
 

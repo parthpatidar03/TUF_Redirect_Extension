@@ -1,5 +1,5 @@
 /**
- * Builds the Chrome Web Store upload: dsa-bridge-<version>.zip containing only
+ * Builds the Chrome Web Store upload: tuf-redirect-<version>.zip containing only
  * the files the extension actually runs. Development tooling stays out.
  *
  *   node tools/package.mjs
@@ -132,7 +132,7 @@ end.writeUInt32LE(centralBuf.length, 12);
 end.writeUInt32LE(offset, 16);
 end.writeUInt16LE(0, 20);
 
-const zip = path.join(root, `dsa-bridge-${manifest.version}.zip`);
+const zip = path.join(root, `tuf-redirect-${manifest.version}.zip`);
 fs.writeFileSync(zip, Buffer.concat([...locals, centralBuf, end]));
 
 const kb = (fs.statSync(zip).size / 1024).toFixed(0);
