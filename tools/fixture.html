@@ -7,7 +7,7 @@
 <html lang="en" class="dark">
 <head>
 <meta charset="utf-8">
-<title>DSA Bridge fixture</title>
+<title>TUF Redirect fixture</title>
 <style>
   :root {
     --color-background: #070709; --color-foreground: #fcfcfd; --color-card: #13161b;
@@ -99,11 +99,19 @@
     tr.addEventListener('click', function () { window.rowClicks++; });
   });
 
-  // Minimal stand-in for the extension APIs.
+  // Minimal stand-in for the extension APIs. storage.sync.get supports both the
+  // promise form the content script uses and the callback form the popup uses.
   window.chrome = {
     runtime: { getURL: function (p) { return '/' + p; } },
     storage: {
-      sync: { get: function (keys, cb) { cb({ showLeetcode: true, showGfg: true }); } },
+      sync: {
+        get: function (keys, cb) {
+          var value = { showLeetcode: true, showGfg: true };
+          if (typeof cb === 'function') { cb(value); return; }
+          return Promise.resolve(value);
+        },
+        set: function () {}
+      },
       onChanged: { addListener: function () {} }
     }
   };

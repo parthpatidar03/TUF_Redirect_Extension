@@ -16,7 +16,7 @@ const TYPES = { '.js': 'text/javascript', '.json': 'application/json', '.css': '
 http.createServer((req, res) => {
   const rel = decodeURIComponent(new URL(req.url, 'http://x').pathname).replace(/^\/+/, '');
   const file = path.join(root, rel);
-  if (!file.startsWith(root) || !fs.existsSync(file) || fs.statSync(file).isDirectory()) {
+  if (!file.startsWith(root + path.sep) || !fs.existsSync(file) || fs.statSync(file).isDirectory()) {
     res.writeHead(404, { 'Access-Control-Allow-Origin': '*' });
     return res.end('not found');
   }
@@ -27,8 +27,9 @@ http.createServer((req, res) => {
 
   // Let popup.html run outside Chrome by standing in for the extension APIs.
   if (rel === 'popup/popup.html') {
-    const stub = '<script>window.chrome={runtime:{getURL:p=>"/"+p},' +
-      'storage:{sync:{get:(k,cb)=>cb({}),set:()=>{}},onChanged:{addListener:()=>{}}}};<\/script>';
+    const stub = '<script>window.chrome={runtime:{getURL:p=>"/"+p},storage:{sync:{' +
+      'get:(k,cb)=>cb?cb({}):Promise.resolve({}),set:()=>{}},' +
+      'onChanged:{addListener:()=>{}}}};<\/script>';
     const html = fs.readFileSync(file, 'utf8').replace('</head>', stub + '</head>');
     res.writeHead(200, headers);
     return res.end(html);
@@ -36,4 +37,7 @@ http.createServer((req, res) => {
 
   res.writeHead(200, headers);
   fs.createReadStream(file).pipe(res);
-}).listen(8787, () => console.log('serving %s on http://localhost:8787', root));
+}).on('error', (err) => {
+  console.error(err.code === 'EADDRINUSE' ? 'port 8787 is already in use' : err.message);
+  process.exit(1);
+}).listen(8787, '127.0.0.1', () => console.log('serving %s on http://localhost:8787', root));

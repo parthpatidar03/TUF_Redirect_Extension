@@ -65,7 +65,15 @@ const mustSearch = [
   '893. Express Number as Sum of Two Primes'
 ];
 
+// Floor, not a target: a data refresh that silently loses half the index
+// should fail here rather than ship as a quieter extension.
+const FLOOR = { leetcode: 780, gfg: 320, either: 900 };
+
 let failed = 0;
+if (exactLc < FLOOR.leetcode) { failed++; console.log('FAIL  leetcode coverage %d below floor %d', exactLc, FLOOR.leetcode); }
+if (exactGfg < FLOOR.gfg) { failed++; console.log('FAIL  gfg coverage %d below floor %d', exactGfg, FLOOR.gfg); }
+if (either < FLOOR.either) { failed++; console.log('FAIL  combined coverage %d below floor %d', either, FLOOR.either); }
+
 for (const [title, slug] of expectations) {
   const got = resolver.resolve(title).leetcode.url;
   if (!got.includes('/problems/' + slug + '/')) {
