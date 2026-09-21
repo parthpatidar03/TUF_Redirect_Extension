@@ -1,0 +1,2382 @@
+[
+ {
+  "slug": "pattern",
+  "name": "Diamond Shape Pattern",
+  "titles": [
+   "Pattern 9"
+  ]
+ },
+ {
+  "slug": "double-triangle-pattern",
+  "name": "Mirrored Bridge Pattern",
+  "titles": [
+   "Pattern 20"
+  ]
+ },
+ {
+  "slug": "reverse-digit0316",
+  "name": "Reverse Digits",
+  "titles": [
+   "Reverse a Number",
+   "Reverse Integer",
+   "Reverse a number"
+  ]
+ },
+ {
+  "slug": "palindrome0746",
+  "name": "Palindrome Number",
+  "titles": [
+   "Check Palindrome",
+   "Check if a Number is Palindrome",
+   "Palindrome Number",
+   "Palindrome number"
+  ]
+ },
+ {
+  "slug": "find-all-factorial-numbers-less-than-or-equal-to-n3548",
+  "name": "Factorials Less than or Equal to n",
+  "titles": [
+   "Factorial of N numbers",
+   "Factorial of a given number",
+   "Factorial of a number",
+   "Find Factorial",
+   "Factorial of a Given Number"
+  ]
+ },
+ {
+  "slug": "armstrong-numbers2727",
+  "name": "Armstrong Numbers",
+  "titles": [
+   "Armstrong Numbers",
+   "Armstrong Number",
+   "Check Armstrong",
+   "Check if the Number is Armstrong"
+  ]
+ },
+ {
+  "slug": "perfect-numbers3207",
+  "name": "Perfect Numbers",
+  "titles": [
+   "Check for Perfect Number",
+   "Check Perfect Number",
+   "Perfect Number"
+  ]
+ },
+ {
+  "slug": "prime-number2314",
+  "name": "Prime Number",
+  "titles": [
+   "Check for Prime",
+   "Check Prime",
+   "Check for Prime Number",
+   "Prime Number Check",
+   "Check if a Number is Prime or Not"
+  ]
+ },
+ {
+  "slug": "sieve-of-eratosthenes5242",
+  "name": "Sieve of Eratosthenes",
+  "titles": [
+   "Count of Prime Numbers till N",
+   "Count Prime Numbers till N",
+   "Count Primes",
+   "Sieve of Eratosthenes",
+   "Print all primes till N",
+   "Count primes in range L to R"
+  ]
+ },
+ {
+  "slug": "lcm-and-gcd4516",
+  "name": "LCM And GCD",
+  "titles": [
+   "GCD Or HCF",
+   "Find GCD",
+   "GCD of Two Numbers",
+   "GCD of two numbers",
+   "Greatest Common Divisor",
+   "LCM of two numbers",
+   "Find LCM",
+   "LCM of Two Numbers"
+  ]
+ },
+ {
+  "slug": "sum-of-all-divisors-from-1-to-n4738",
+  "name": "Sum 1 to n Divisors",
+  "titles": [
+   "Print all Divisors",
+   "All Divisors of a Number",
+   "Divisors of a Number",
+   "Find all Divisors"
+  ]
+ },
+ {
+  "slug": "count-odd-even",
+  "name": "Count Odd and Even",
+  "titles": [
+   "Count of odd numbers in Array"
+  ]
+ },
+ {
+  "slug": "check-if-an-array-is-sorted0701",
+  "name": "Check Sorted Array",
+  "titles": [
+   "Check if the Array is Sorted I",
+   "Check if Array Is Sorted and Rotated",
+   "Check if the Array is Sorted II"
+  ]
+ },
+ {
+  "slug": "reverse-an-array",
+  "name": "Reverse Array",
+  "titles": [
+   "Reverse an Array",
+   "Reverse an array",
+   "Reverse Array",
+   "Reverse an array 2"
+  ]
+ },
+ {
+  "slug": "second-largest3735",
+  "name": "Second Largest",
+  "titles": [
+   "Second Highest Occurring Element",
+   "Second Largest Element in an Array without sorting",
+   "Second Largest",
+   "Second Largest Element",
+   "Second Largest Element in an Array"
+  ]
+ },
+ {
+  "slug": "frequency-of-array-elements-1587115620",
+  "name": "Frequencies in a Limited Array",
+  "titles": [
+   "Sum of Highest and Lowest Frequency"
+  ]
+ },
+ {
+  "slug": "reverse-a-string",
+  "name": "Reverse a String",
+  "titles": [
+   "Reverse a String",
+   "Reverse String",
+   "Reverse a String II",
+   "Reverse a String I"
+  ]
+ },
+ {
+  "slug": "palindrome-string0817",
+  "name": "Palindrome String",
+  "titles": [
+   "Valid Palindrome",
+   "Check if String is Palindrome",
+   "Palindrome Check",
+   "Check if a string is palindrome or not",
+   "Check if String is Palindrome or Not"
+  ]
+ },
+ {
+  "slug": "largest-odd-number-in-string",
+  "name": "Largest odd number in string",
+  "titles": [
+   "Largest Odd Number in String",
+   "Largest Odd Number in a String"
+  ]
+ },
+ {
+  "slug": "longest-common-prefix-in-an-array5129",
+  "name": "Longest Common Prefix of Strings",
+  "titles": [
+   "Longest Common Prefix"
+  ]
+ },
+ {
+  "slug": "isomorphic-strings-1587115620",
+  "name": "Isomorphic Strings",
+  "titles": [
+   "Isomorphic Strings"
+  ]
+ },
+ {
+  "slug": "check-if-strings-are-rotations-of-each-other-or-not-1587115620",
+  "name": "Strings Rotations of Each Other",
+  "titles": [
+   "Rotate String"
+  ]
+ },
+ {
+  "slug": "anagram-1587115620",
+  "name": "Anagram",
+  "titles": [
+   "Valid Anagram"
+  ]
+ },
+ {
+  "slug": "sum-of-first-n-terms5843",
+  "name": "Sum of Natural Number Cubes",
+  "titles": [
+   "Sum of first N numbers",
+   "Sum of First N Numbers"
+  ]
+ },
+ {
+  "slug": "sum-of-digits1742",
+  "name": "Sum Of Digits",
+  "titles": [
+   "Sum of Digits in a Given Number"
+  ]
+ },
+ {
+  "slug": "selection-sort",
+  "name": "Selection Sort",
+  "titles": [
+   "Selection Sort"
+  ]
+ },
+ {
+  "slug": "bubble-sort",
+  "name": "Bubble Sort",
+  "titles": [
+   "Bubble Sort"
+  ]
+ },
+ {
+  "slug": "insertion-sort",
+  "name": "Insertion Sort",
+  "titles": [
+   "Insertion Sort",
+   "Insertion Sort Algorithm",
+   "Insertion Sorting"
+  ]
+ },
+ {
+  "slug": "merge-sort",
+  "name": "Merge Sort",
+  "titles": [
+   "Merge Sort",
+   "Merge Sort Algorithm",
+   "Merge Sorting"
+  ]
+ },
+ {
+  "slug": "quick-sort",
+  "name": "Quick Sort",
+  "titles": [
+   "Quick Sort",
+   "Quick Sort Algorithm",
+   "Quick Sorting"
+  ]
+ },
+ {
+  "slug": "who-will-win-1587115621",
+  "name": "Binary Search",
+  "titles": [
+   "Linear Search"
+  ]
+ },
+ {
+  "slug": "rotate-array-by-n-elements-1587115621",
+  "name": "Rotate Array",
+  "titles": [
+   "Rotate Array by K places",
+   "Left Rotate Array by One",
+   "Left Rotate Array by K Places"
+  ]
+ },
+ {
+  "slug": "move-all-zeroes-to-end-of-array0751",
+  "name": "Move All Zeroes to End",
+  "titles": [
+   "Move Zeroes",
+   "Move Zeros to End"
+  ]
+ },
+ {
+  "slug": "remove-duplicate-elements-from-sorted-array",
+  "name": "Remove Duplicates Sorted Array",
+  "titles": [
+   "Remove Duplicates from Sorted Array",
+   "Remove duplicates from sorted array"
+  ]
+ },
+ {
+  "slug": "missing-number-in-array1416",
+  "name": "Missing in Array",
+  "titles": [
+   "Missing Number",
+   "Find Missing Number",
+   "Find missing number",
+   "Missing Number in Array"
+  ]
+ },
+ {
+  "slug": "union-of-two-sorted-arrays-1587115621",
+  "name": "Union of 2 Sorted Arrays",
+  "titles": [
+   "Union of Two Sorted Arrays",
+   "Find the Union and Intersection of two sorted arrays",
+   "Union of two sorted arrays"
+  ]
+ },
+ {
+  "slug": "majority-element-1587115620",
+  "name": "Majority Element",
+  "titles": [
+   "Majority Element (> n/2 times)",
+   "Majority Element-I"
+  ]
+ },
+ {
+  "slug": "leaders-in-an-array-1587115620",
+  "name": "Array Leaders",
+  "titles": [
+   "Leaders in an Array"
+  ]
+ },
+ {
+  "slug": "array-of-alternate-ve-and-ve-nos1401",
+  "name": "Alternate Positive Negative",
+  "titles": [
+   "Rearrange Array Elements by Sign",
+   "Rearrange array elements by sign"
+  ]
+ },
+ {
+  "slug": "spirally-traversing-a-matrix-1587115621",
+  "name": "Spirally Traversing a Matrix",
+  "titles": [
+   "Spiral Matrix",
+   "Print the matrix in spiral manner"
+  ]
+ },
+ {
+  "slug": "pascal-triangle0652",
+  "name": "Pascal Triangle",
+  "titles": [
+   "Pascal's Triangle",
+   "Pascal's Triangle I",
+   "Pascal's Triangle II",
+   "Pascal Triangle Row",
+   "Pascal's Triangle III",
+   "Pascals Triangle"
+  ]
+ },
+ {
+  "slug": "rotate-by-90-degree-1587115621",
+  "name": "Rotate by 90 degree",
+  "titles": [
+   "Rotate Image / Matrix by 90 degrees",
+   "Rotate Image",
+   "Rotate Matrix",
+   "Rotate Matrix by 90 degrees",
+   "Rotate matrix by 90 degrees"
+  ]
+ },
+ {
+  "slug": "set-matrix-zeroes",
+  "name": "Set Matrix Zeros",
+  "titles": [
+   "Set Matrix Zeroes"
+  ]
+ },
+ {
+  "slug": "triplet-sum-in-array-1587115621",
+  "name": "Triplet Sum in Array",
+  "titles": [
+   "3 Sum"
+  ]
+ },
+ {
+  "slug": "find-all-four-sum-numbers1732",
+  "name": "4 Sum - All Quadruples",
+  "titles": [
+   "4 Sum"
+  ]
+ },
+ {
+  "slug": "kadanes-algorithm-1587115620",
+  "name": "Kadane's Algorithm",
+  "titles": [
+   "Maximum Subarray Sum (Kadane's Algorithm)",
+   "Kadane's Algorithm",
+   "Kadanes Algorithm",
+   "Max Subarray Sum",
+   "Maximum Subarray Sum"
+  ]
+ },
+ {
+  "slug": "next-permutation5226",
+  "name": "Next Permutation",
+  "titles": [
+   "Next Permutation"
+  ]
+ },
+ {
+  "slug": "majority-vote",
+  "name": "Majority Element - More Than n/3",
+  "titles": [
+   "Majority Element II (> n/3 times)",
+   "Majority Element-II"
+  ]
+ },
+ {
+  "slug": "find-missing-and-repeating2512",
+  "name": "Missing And Repeating",
+  "titles": [
+   "Find the Missing and Repeating Number",
+   "Find the repeating and missing number",
+   "Missing and Repeating"
+  ]
+ },
+ {
+  "slug": "inversion-of-array-1587115620",
+  "name": "Count Inversions",
+  "titles": [
+   "Count Inversions"
+  ]
+ },
+ {
+  "slug": "maximum-product-subarray3604",
+  "name": "Maximum Product Subarray",
+  "titles": [
+   "Maximum Product Subarray",
+   "Maximum Product Subarray in an Array"
+  ]
+ },
+ {
+  "slug": "merge-two-sorted-arrays-1587115620",
+  "name": "Merge Without Extra Space",
+  "titles": [
+   "Merge Two Sorted Arrays Without Extra Space",
+   "Merge two sorted arrays without extra space"
+  ]
+ },
+ {
+  "slug": "longest-consecutive-subsequence2449",
+  "name": "Longest Consecutive Subsequence",
+  "titles": [
+   "Longest Consecutive Sequence",
+   "Longest Consecutive Sequence in an Array"
+  ]
+ },
+ {
+  "slug": "longest-sub-array-with-sum-k0809",
+  "name": "Longest Subarray with Sum K",
+  "titles": [
+   "Longest Subarray with Sum K",
+   "Longest subarray with sum K"
+  ]
+ },
+ {
+  "slug": "largest-subarray-with-0-sum",
+  "name": "Largest subarray with 0 sum",
+  "titles": [
+   "Largest Subarray with 0 Sum",
+   "Largest Subarray with Sum 0"
+  ]
+ },
+ {
+  "slug": "subarrays-with-sum-k",
+  "name": "Subarrays with Sum K",
+  "titles": [
+   "Subarray Sum Equals K",
+   "Count subarrays with given sum"
+  ]
+ },
+ {
+  "slug": "count-subarray-with-given-xor",
+  "name": "Count Subarrays with given XOR",
+  "titles": [
+   "Count Subarrays with Given XOR K",
+   "Count subarrays with given xor K"
+  ]
+ },
+ {
+  "slug": "binary-search-1587115620",
+  "name": "First Occurrence in Sorted",
+  "titles": [
+   "Binary Search",
+   "Search X in sorted array"
+  ]
+ },
+ {
+  "slug": "floor-in-a-sorted-array-1587115620",
+  "name": "Floor in Sorted Array",
+  "titles": [
+   "Implement Lower Bound",
+   "Lower Bound",
+   "Search Insert Position"
+  ]
+ },
+ {
+  "slug": "number-of-occurrence2259",
+  "name": "Number of Occurrence",
+  "titles": [
+   "Count Occurrences in Sorted Array",
+   "First and last occurrence"
+  ]
+ },
+ {
+  "slug": "search-in-a-rotated-array4618",
+  "name": "Search in Rotated Sorted Array",
+  "titles": [
+   "Search in Rotated Sorted Array",
+   "Search in rotated sorted array-I"
+  ]
+ },
+ {
+  "slug": "search-in-rotated-array-2",
+  "name": "Search in Rotated Array 2",
+  "titles": [
+   "Search in Rotated Sorted Array II (with duplicates)",
+   "Search in rotated sorted array-II"
+  ]
+ },
+ {
+  "slug": "rotation4723",
+  "name": "Find Kth Rotation",
+  "titles": [
+   "Find how many times array has been rotated",
+   "Find minimum in Rotated Sorted Array",
+   "Find out how many times the array is rotated",
+   "Rotation Count in Rotated Sorted Array"
+  ]
+ },
+ {
+  "slug": "find-the-element-that-appears-once-in-sorted-array0624",
+  "name": "Single Among Doubles in a Sorted",
+  "titles": [
+   "Single Element in a Sorted Array",
+   "Single element in sorted array"
+  ]
+ },
+ {
+  "slug": "square-root",
+  "name": "Square Root",
+  "titles": [
+   "Square Root of an integer",
+   "Find square root of a number",
+   "Sqrt(x)"
+  ]
+ },
+ {
+  "slug": "find-nth-root-of-m5843",
+  "name": "Nth Root of M",
+  "titles": [
+   "Find Nth Root of M",
+   "Find Nth root of a number",
+   "Nth Root of a Number using Binary Search"
+  ]
+ },
+ {
+  "slug": "smallest-divisor",
+  "name": "Smallest Divisor",
+  "titles": [
+   "Find the Smallest Divisor Given a Threshold",
+   "Find the smallest divisor"
+  ]
+ },
+ {
+  "slug": "koko-eating-bananas",
+  "name": "Koko Eating Bananas",
+  "titles": [
+   "Koko Eating Bananas",
+   "Koko eating bananas"
+  ]
+ },
+ {
+  "slug": "minimum-days-to-make-m-bouquets",
+  "name": "Minimum Days to Make m Bouquets",
+  "titles": [
+   "Minimum days to make M bouquets"
+  ]
+ },
+ {
+  "slug": "capacity-to-ship-packages-within-d-days",
+  "name": "Capacity To Ship Packages Within d Days",
+  "titles": [
+   "Capacity to Ship Packages within D Days",
+   "Capacity to Ship Packages Within D Days"
+  ]
+ },
+ {
+  "slug": "kth-missing-positive-number-in-a-sorted-array",
+  "name": "Kth Missing Positive Number in a Sorted Array",
+  "titles": [
+   "Kth Missing Positive Number"
+  ]
+ },
+ {
+  "slug": "the-painters-partition-problem1535",
+  "name": "The Painter's Partition Problem-II",
+  "titles": [
+   "Painter's Partition Problem",
+   "Painter's Partition",
+   "The Painter's Partition Problem-II",
+   "Split array - largest sum"
+  ]
+ },
+ {
+  "slug": "aggressive-cows",
+  "name": "Aggressive Cows",
+  "titles": [
+   "Aggressive Cows"
+  ]
+ },
+ {
+  "slug": "allocate-minimum-number-of-pages0937",
+  "name": "Allocate Minimum Pages",
+  "titles": [
+   "Book Allocation Problem"
+  ]
+ },
+ {
+  "slug": "peak-element",
+  "name": "Peak element",
+  "titles": [
+   "Find Peak Element",
+   "Find peak element"
+  ]
+ },
+ {
+  "slug": "k-th-element-of-two-sorted-array1317",
+  "name": "K-th of Two Sorted Arrays",
+  "titles": [
+   "K-th Element of Two Sorted Arrays",
+   "Median of 2 sorted arrays"
+  ]
+ },
+ {
+  "slug": "row-with-max-1s0023",
+  "name": "Row with Max 1s in Rowwise Sorted",
+  "titles": [
+   "Row with Maximum 1's",
+   "Find row with maximum 1's",
+   "Row with Max 1s"
+  ]
+ },
+ {
+  "slug": "search-in-a-matrix-1587115621",
+  "name": "Search in a sorted Matrix",
+  "titles": [
+   "Search a 2D Matrix",
+   "Search in a 2D Matrix"
+  ]
+ },
+ {
+  "slug": "search-in-a-matrix17201720",
+  "name": "Search in a Row-Column Sorted",
+  "titles": [
+   "Search a 2D Matrix II",
+   "Search in 2D matrix - II"
+  ]
+ },
+ {
+  "slug": "median-in-a-row-wise-sorted-matrix1527",
+  "name": "Median in a Row-Wise Sorted Matrix",
+  "titles": [
+   "Matrix Median"
+  ]
+ },
+ {
+  "slug": "power-set4302",
+  "name": "All Subsequences of String",
+  "titles": [
+   "Power Set"
+  ]
+ },
+ {
+  "slug": "subset-sum-problem-1611555638",
+  "name": "Subset Sum Problem",
+  "titles": [
+   "Check if there exists a subsequence with sum K",
+   "Subset sum equals to target"
+  ]
+ },
+ {
+  "slug": "perfect-sum-problem5633",
+  "name": "Count Subsets with Sum",
+  "titles": [
+   "Count all subsequences with sum K",
+   "Count Subsets with Sum K",
+   "Count subsets with sum K"
+  ]
+ },
+ {
+  "slug": "combination-sum-1587115620",
+  "name": "Target Sum Combinations",
+  "titles": [
+   "Combination Sum"
+  ]
+ },
+ {
+  "slug": "subset-sums2234",
+  "name": "Subset Sums",
+  "titles": [
+   "Subset Sums",
+   "Subsets I",
+   "Subset Sum : Sum of all Subsets",
+   "Power Set Bit Manipulation"
+  ]
+ },
+ {
+  "slug": "subset-sum-ii",
+  "name": "Distinct Subsets",
+  "titles": [
+   "Subsets II"
+  ]
+ },
+ {
+  "slug": "possible-words-from-phone-digits-1587115620",
+  "name": "Possible Words From Phone Digits",
+  "titles": [
+   "Letter Combinations of a Phone Number"
+  ]
+ },
+ {
+  "slug": "palindromic-patitioning4845",
+  "name": "Palindromic Partitioning",
+  "titles": [
+   "Palindrome Partitioning",
+   "Palindrome partitioning",
+   "Palindrome Partitioning II",
+   "Palindrome partitioning II"
+  ]
+ },
+ {
+  "slug": "word-search",
+  "name": "Word Search",
+  "titles": [
+   "Word Search"
+  ]
+ },
+ {
+  "slug": "n-queen-problem0315",
+  "name": "N-Queen Problem",
+  "titles": [
+   "N-Queens",
+   "N Queen"
+  ]
+ },
+ {
+  "slug": "rat-in-a-maze-problem",
+  "name": "Rat in a Maze",
+  "titles": [
+   "Rat in a Maze Problem",
+   "Rat in a Maze",
+   "Rat in a Maze Problem - I"
+  ]
+ },
+ {
+  "slug": "m-coloring-problem-1587115620",
+  "name": "M-Coloring Problem",
+  "titles": [
+   "M-Coloring Problem",
+   "M Coloring Problem"
+  ]
+ },
+ {
+  "slug": "solve-the-sudoku-1587115621",
+  "name": "Solve the Sudoku",
+  "titles": [
+   "Sudoku Solver"
+  ]
+ },
+ {
+  "slug": "count-nodes-of-linked-list",
+  "name": "Length of Linked List",
+  "titles": [
+   "Traversal in Linked List",
+   "Count nodes of linked list"
+  ]
+ },
+ {
+  "slug": "delete-a-node-in-single-linked-list",
+  "name": "Linked List Delete at Position",
+  "titles": [
+   "Delete Node in a Linked List",
+   "Deletion of the head of LL",
+   "Deletion of the tail of Linked List",
+   "Delete a Node in Single Linked List",
+   "Deletion of the Kth element of Linked List",
+   "Delete the element with value X"
+  ]
+ },
+ {
+  "slug": "linked-list-insertion-1587115620",
+  "name": "Linked List End Insertion",
+  "titles": [
+   "Insertion at the head of Linked List",
+   "Insertion at the tail of Linked List"
+  ]
+ },
+ {
+  "slug": "insert-in-middle-of-linked-list",
+  "name": "Insert at Middle of Linked List",
+  "titles": [
+   "Insertion at the Kth position of Linked List",
+   "Insertion before the value X in Linked List"
+  ]
+ },
+ {
+  "slug": "delete-node-in-doubly-linked-list",
+  "name": "Delete in a Doubly Linked List",
+  "titles": [
+   "Delete Tail of Doubly Linked List",
+   "Delete Kth Element of Doubly Linked List",
+   "Removing given node in Doubly Linked List"
+  ]
+ },
+ {
+  "slug": "insert-a-node-in-doubly-linked-list",
+  "name": "Insertion in a Doubly Linked List",
+  "titles": [
+   "Insert node before head in Doubly Linked List",
+   "Insert node before tail in Doubly Linked List",
+   "Insert node before (kth node) in Doubly Linked List",
+   "Insert before given node in Doubly Linked List"
+  ]
+ },
+ {
+  "slug": "add-two-numbers-represented-by-linked-lists",
+  "name": "Add Number Linked Lists",
+  "titles": [
+   "Add Two Numbers",
+   "Add two numbers in Linked List"
+  ]
+ },
+ {
+  "slug": "given-a-linked-list-of-0s-1s-and-2s-sort-it",
+  "name": "Sort a linked list of 0s, 1s and 2s",
+  "titles": [
+   "Sort a Linked List of 0's 1's and 2's",
+   "Sort a LL of 0's 1's and 2's",
+   "Sort LL"
+  ]
+ },
+ {
+  "slug": "nth-node-from-end-of-linked-list",
+  "name": "Kth from End of Linked List",
+  "titles": [
+   "Remove Nth Node From End of List",
+   "Remove Nth node from the back of the LL"
+  ]
+ },
+ {
+  "slug": "reverse-a-linked-list",
+  "name": "Reverse a Linked List",
+  "titles": [
+   "Reverse a Linked List",
+   "Reverse a LL"
+  ]
+ },
+ {
+  "slug": "add-1-to-a-number-represented-as-linked-list",
+  "name": "Add 1 to a Linked List Number",
+  "titles": [
+   "Add one to a number represented by LL"
+  ]
+ },
+ {
+  "slug": "finding-middle-element-in-a-linked-list",
+  "name": "Middle of Linked List",
+  "titles": [
+   "Middle of the Linked List",
+   "Find Middle of Linked List"
+  ]
+ },
+ {
+  "slug": "delete-middle-of-linked-list",
+  "name": "Delete Middle of Linked List",
+  "titles": [
+   "Delete the Middle Node of a Linked List",
+   "Delete the middle node in LL"
+  ]
+ },
+ {
+  "slug": "check-if-linked-list-is-pallindrome",
+  "name": "Palindrome Linked List",
+  "titles": [
+   "Check if LL is Palindrome",
+   "Check if LL is palindrome or not"
+  ]
+ },
+ {
+  "slug": "intersection-point-in-y-shapped-linked-lists",
+  "name": "Intersection in Y Shaped Lists",
+  "titles": [
+   "Intersection of Two Linked Lists",
+   "Find the intersection point of Y LL"
+  ]
+ },
+ {
+  "slug": "detect-loop-in-linked-list",
+  "name": "Detect Loop in Linked List",
+  "titles": [
+   "Detect a Loop in LL",
+   "Detect Cycle in Linked List",
+   "Detect Loop in Linked List",
+   "Detect a loop in LL",
+   "Linked List Cycle"
+  ]
+ },
+ {
+  "slug": "find-length-of-loop",
+  "name": "Cycle Length in Linked List",
+  "titles": [
+   "Length of Loop in Linked List",
+   "Find the starting point in LL",
+   "Length of loop in LL"
+  ]
+ },
+ {
+  "slug": "reverse-a-linked-list-in-groups-of-given-size",
+  "name": "Linked List Group Reverse",
+  "titles": [
+   "Reverse Nodes in k-Group",
+   "Reverse LL in group of given size K"
+  ]
+ },
+ {
+  "slug": "rotate-a-linked-list",
+  "name": "Rotate a Linked List",
+  "titles": [
+   "Rotate List",
+   "Rotate a LL"
+  ]
+ },
+ {
+  "slug": "merge-two-sorted-linked-lists",
+  "name": "Merge two sorted linked lists",
+  "titles": [
+   "Merge two Sorted Lists"
+  ]
+ },
+ {
+  "slug": "flattening-a-linked-list",
+  "name": "Flattening a Linked List",
+  "titles": [
+   "Flattening of LL"
+  ]
+ },
+ {
+  "slug": "clone-a-linked-list-with-next-and-random-pointer",
+  "name": "Clone List with Next and Random",
+  "titles": [
+   "Copy List with Random Pointer",
+   "Clone a LL with random and next pointer"
+  ]
+ },
+ {
+  "slug": "delete-all-occurrences-of-a-given-key-in-a-doubly-linked-list",
+  "name": "Delete All Occurrences in DLL",
+  "titles": [
+   "Delete all occurrences of a key in DLL"
+  ]
+ },
+ {
+  "slug": "remove-duplicates-from-a-sorted-doubly-linked-list",
+  "name": "Remove duplicates from a sorted DLL",
+  "titles": [
+   "Remove duplicates from sorted DLL"
+  ]
+ },
+ {
+  "slug": "find-pairs-with-given-sum-in-doubly-linked-list",
+  "name": "Pair Sum in Sorted Doubly Linked List",
+  "titles": [
+   "Find Pairs with Given Sum in Doubly Linked List"
+  ]
+ },
+ {
+  "slug": "bit-difference-1587115620",
+  "name": "Bit Difference",
+  "titles": [
+   "Minimum Bit Flips to Convert Number"
+  ]
+ },
+ {
+  "slug": "two-numbers-with-odd-occurrences5846",
+  "name": "Two odd Occuring",
+  "titles": [
+   "Single Number III",
+   "Single Number - III"
+  ]
+ },
+ {
+  "slug": "division-without-using-multiplication-division-and-mod-operator",
+  "name": "Division without using multiplication, division and mod operator",
+  "titles": [
+   "Divide Two Integers without using multiplication, division and mod operator",
+   "Divide two numbers without multiplication and division"
+  ]
+ },
+ {
+  "slug": "find-xor-of-numbers-from-l-to-r",
+  "name": "XOR of a Number Range",
+  "titles": [
+   "XOR of numbers in a given range"
+  ]
+ },
+ {
+  "slug": "assign-cookies",
+  "name": "Assign Cookies",
+  "titles": [
+   "Assign Cookies"
+  ]
+ },
+ {
+  "slug": "fractional-knapsack-1587115620",
+  "name": "Fractional Knapsack",
+  "titles": [
+   "Fractional Knapsack"
+  ]
+ },
+ {
+  "slug": "jump-game",
+  "name": "Reaching End with Jumps",
+  "titles": [
+   "Jump Game",
+   "Jump Game - I"
+  ]
+ },
+ {
+  "slug": "shortest-job-first",
+  "name": "Shortest Job first",
+  "titles": [
+   "Shortest Job First"
+  ]
+ },
+ {
+  "slug": "job-sequencing-problem-1587115620",
+  "name": "Job Sequencing Problem",
+  "titles": [
+   "Job Sequencing Problem",
+   "Job sequencing Problem"
+  ]
+ },
+ {
+  "slug": "non-overlapping-intervals",
+  "name": "Non-Overlapping Intervals",
+  "titles": [
+   "Non-overlapping Intervals"
+  ]
+ },
+ {
+  "slug": "insert-interval-1666733333",
+  "name": "Insert Interval",
+  "titles": [
+   "Insert Interval"
+  ]
+ },
+ {
+  "slug": "overlapping-intervals--170633",
+  "name": "Overlapping Intervals",
+  "titles": [
+   "Merge Overlapping Subintervals",
+   "Merge Intervals",
+   "Merge Overlapping Intervals"
+  ]
+ },
+ {
+  "slug": "minimum-platforms-1587115620",
+  "name": "Minimum Platforms",
+  "titles": [
+   "Minimum number of platforms required for a railway"
+  ]
+ },
+ {
+  "slug": "candy",
+  "name": "Minimum Candy Distribution",
+  "titles": [
+   "Candy"
+  ]
+ },
+ {
+  "slug": "minimum-number-of-jumps-1587115620",
+  "name": "Minimum Jumps",
+  "titles": [
+   "Jump Game II"
+  ]
+ },
+ {
+  "slug": "maximum-point-you-can-obtain-from-cards",
+  "name": "Maximum point you can obtain from cards",
+  "titles": [
+   "Maximum Points You Can Obtain from Cards"
+  ]
+ },
+ {
+  "slug": "longest-k-unique-characters-substring0853",
+  "name": "Longest Substring with K Uniques",
+  "titles": [
+   "Longest Substring With At Most K Distinct Characters"
+  ]
+ },
+ {
+  "slug": "longest-repeating-character-replacement",
+  "name": "Longest Repeating Character Replacement",
+  "titles": [
+   "Longest Repeating Character Replacement"
+  ]
+ },
+ {
+  "slug": "smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621",
+  "name": "Smallest Window with All",
+  "titles": [
+   "Minimum Window Substring"
+  ]
+ },
+ {
+  "slug": "count-substring",
+  "name": "Count Substrings with a, b and c",
+  "titles": [
+   "Number of Substrings Containing All Three Characters"
+  ]
+ },
+ {
+  "slug": "binary-subarray-with-sum",
+  "name": "Binary subarray sum",
+  "titles": [
+   "Binary Subarrays With Sum"
+  ]
+ },
+ {
+  "slug": "subarrays-with-k-different-integers",
+  "name": "Subarrays with K Distinct Integers",
+  "titles": [
+   "Subarrays with K Different Integers"
+  ]
+ },
+ {
+  "slug": "implement-stack-using-array",
+  "name": "Implement Stack using Array",
+  "titles": [
+   "Implement Stack using Arrays"
+  ]
+ },
+ {
+  "slug": "implement-queue-using-array",
+  "name": "Queue Using Array",
+  "titles": [
+   "Implement Queue using Arrays"
+  ]
+ },
+ {
+  "slug": "implement-stack-using-linked-list",
+  "name": "Stack using Linked List",
+  "titles": [
+   "Implement stack using Linkedlist"
+  ]
+ },
+ {
+  "slug": "implement-queue-using-linked-list",
+  "name": "Queue using Linked List",
+  "titles": [
+   "Implement queue using Linkedlist"
+  ]
+ },
+ {
+  "slug": "parenthesis-checker2744",
+  "name": "Parenthesis Checker",
+  "titles": [
+   "Valid Parentheses",
+   "Balanced Paranthesis"
+  ]
+ },
+ {
+  "slug": "immediate-smaller-element1142",
+  "name": "Next Smaller Element",
+  "titles": [
+   "Next Smaller Element",
+   "Next Greater Element"
+  ]
+ },
+ {
+  "slug": "sum-of-subarray-minimum",
+  "name": "Sum of subarray minimums",
+  "titles": [
+   "Sum of Subarray Minimums"
+  ]
+ },
+ {
+  "slug": "sum-of-subarray-ranges",
+  "name": "Sum of subarray ranges",
+  "titles": [
+   "Sum of Subarray Ranges"
+  ]
+ },
+ {
+  "slug": "remove-k-digits",
+  "name": "Remove K Digits",
+  "titles": [
+   "Remove K Digits"
+  ]
+ },
+ {
+  "slug": "get-minimum-element-from-stack",
+  "name": "Get Min from Stack",
+  "titles": [
+   "Min Stack",
+   "Implement Min Stack"
+  ]
+ },
+ {
+  "slug": "maximum-of-all-subarrays-of-size-k3101",
+  "name": "K Sized Subarray Maximum",
+  "titles": [
+   "Sliding Window Maximum"
+  ]
+ },
+ {
+  "slug": "trapping-rain-water-1587115621",
+  "name": "Trapping Rain Water",
+  "titles": [
+   "Trapping Rain Water",
+   "Trapping Rainwater"
+  ]
+ },
+ {
+  "slug": "maximum-rectangular-area-in-a-histogram-1587115620",
+  "name": "Histogram Max Rectangular Area",
+  "titles": [
+   "Largest Rectangle in Histogram",
+   "Largest rectangle in a histogram"
+  ]
+ },
+ {
+  "slug": "max-rectangle",
+  "name": "Max  Rectangle",
+  "titles": [
+   "Maximal Rectangle",
+   "Maximum Rectangles"
+  ]
+ },
+ {
+  "slug": "stock-span-problem-1587115621",
+  "name": "Stock Span Problem",
+  "titles": [
+   "Online Stock Span",
+   "Stock span problem"
+  ]
+ },
+ {
+  "slug": "the-celebrity-problem",
+  "name": "Celebrity Problem",
+  "titles": [
+   "Celebrity Problem"
+  ]
+ },
+ {
+  "slug": "lru-cache",
+  "name": "LRU Cache",
+  "titles": [
+   "LRU Cache"
+  ]
+ },
+ {
+  "slug": "inorder-traversal",
+  "name": "Inorder Traversal",
+  "titles": [
+   "Morris Preorder / Inorder Traversal",
+   "Inorder Traversal",
+   "Morris Inorder Traversal",
+   "Morris Preorder Traversal"
+  ]
+ },
+ {
+  "slug": "preorder-traversal",
+  "name": "Preorder Traversal",
+  "titles": [
+   "Binary Tree Preorder Traversal",
+   "Preorder Traversal",
+   "Pre, Post, Inorder in one traversal"
+  ]
+ },
+ {
+  "slug": "postorder-traversal",
+  "name": "Postorder Traversal",
+  "titles": [
+   "Binary Tree Postorder Traversal",
+   "Postorder Traversal"
+  ]
+ },
+ {
+  "slug": "level-order-traversal",
+  "name": "Level Order Traversal",
+  "titles": [
+   "Binary Tree Level Order Traversal",
+   "Level Order Traversal"
+  ]
+ },
+ {
+  "slug": "height-of-binary-tree",
+  "name": "Height of Binary Tree",
+  "titles": [
+   "Maximum Depth of Binary Tree",
+   "Maximum Depth in BT"
+  ]
+ },
+ {
+  "slug": "determine-if-two-trees-are-identical",
+  "name": "Identical Trees",
+  "titles": [
+   "Same Tree",
+   "Check if two trees are identical or not"
+  ]
+ },
+ {
+  "slug": "check-for-balanced-tree",
+  "name": "Balanced Tree Check",
+  "titles": [
+   "Balanced Binary Tree",
+   "Check for balanced binary tree"
+  ]
+ },
+ {
+  "slug": "diameter-of-binary-tree",
+  "name": "Diameter of Binary Tree",
+  "titles": [
+   "Diameter of Binary Tree"
+  ]
+ },
+ {
+  "slug": "maximum-path-sum-from-any-node",
+  "name": "Maximum Path Sum",
+  "titles": [
+   "Binary Tree Maximum Path Sum",
+   "Maximum path sum"
+  ]
+ },
+ {
+  "slug": "symmetric-tree",
+  "name": "Symmetric Tree",
+  "titles": [
+   "Symmetric Tree",
+   "Check for symmetrical BTs"
+  ]
+ },
+ {
+  "slug": "children-sum-parent",
+  "name": "Children Sum in a Binary Tree",
+  "titles": [
+   "Children Sum Property in Binary Tree",
+   "Check for Children Sum Property in a Binary Tree",
+   "Children Sum Property",
+   "Children Sum in BT"
+  ]
+ },
+ {
+  "slug": "zigzag-tree-traversal",
+  "name": "Zig-Zag Tree Traversal",
+  "titles": [
+   "Binary Tree Zigzag Level Order Traversal",
+   "Spiral Traversal of BT",
+   "Zig Zag or Spiral Traversal",
+   "Zigzag Level Order Traversal",
+   "Zigzag Traversal"
+  ]
+ },
+ {
+  "slug": "boundary-traversal-of-binary-tree",
+  "name": "Tree Boundary Traversal",
+  "titles": [
+   "Boundary Traversal of Binary Tree",
+   "Boundary Traversal",
+   "Boundary Traversal of BT"
+  ]
+ },
+ {
+  "slug": "print-a-binary-tree-in-vertical-order",
+  "name": "Vertical Tree Traversal",
+  "titles": [
+   "Vertical Order Traversal of a Binary Tree",
+   "Vertical Order Traversal",
+   "Vertical Order Traversal of BT"
+  ]
+ },
+ {
+  "slug": "top-view-of-binary-tree",
+  "name": "Top View of Binary Tree",
+  "titles": [
+   "Top View of Binary Tree",
+   "Top View of BT"
+  ]
+ },
+ {
+  "slug": "bottom-view-of-binary-tree",
+  "name": "Bottom View of Binary Tree",
+  "titles": [
+   "Bottom View of Binary Tree",
+   "Bottom View of BT",
+   "Bottom view of BT"
+  ]
+ },
+ {
+  "slug": "right-view-of-binary-tree",
+  "name": "Right View of Binary Tree",
+  "titles": [
+   "Right/Left View of Binary Tree",
+   "Left View of BT",
+   "Right Side View of Binary Tree",
+   "Right View of BT",
+   "Right/Left View of BT"
+  ]
+ },
+ {
+  "slug": "root-to-leaf-paths",
+  "name": "Root to Leaf Paths",
+  "titles": [
+   "Root to Node Path in Binary Tree",
+   "Print root to leaf path in BT",
+   "Root to Leaf Path",
+   "Root to leaf path in Binary Tree"
+  ]
+ },
+ {
+  "slug": "lowest-common-ancestor-in-a-binary-tree",
+  "name": "LCA in  Binary Tree",
+  "titles": [
+   "Lowest Common Ancestor of a Binary Tree",
+   "LCA in BT",
+   "LCA in Binary Tree",
+   "LCA of Binary Tree"
+  ]
+ },
+ {
+  "slug": "maximum-width-of-tree",
+  "name": "Maximum Width of Tree",
+  "titles": [
+   "Maximum Width of Binary Tree",
+   "Max Width of Binary Tree",
+   "Maximum Width of BT"
+  ]
+ },
+ {
+  "slug": "nodes-at-given-distance-in-binary-tree",
+  "name": "Nodes at Distance in Binary Tree",
+  "titles": [
+   "All Nodes Distance K in Binary Tree",
+   "Nodes at Distance K",
+   "Print all nodes at a distance of K in BT",
+   "Print all nodes at distance K in Binary Tree"
+  ]
+ },
+ {
+  "slug": "burning-tree",
+  "name": "Burning Tree",
+  "titles": [
+   "Burning Tree",
+   "Amount of Time for Binary Tree to Be Infected",
+   "Burn BT",
+   "Burning Binary Tree",
+   "Minimum time taken to burn the BT from a given Node",
+   "Time to Burn Tree"
+  ]
+ },
+ {
+  "slug": "count-number-of-nodes-in-a-binary-tree",
+  "name": "Size of a Complete  Binary Tree",
+  "titles": [
+   "Count Complete Tree Nodes",
+   "Count Nodes in Complete Binary Tree",
+   "Count total nodes in a complete BT",
+   "Count total nodes in complete Binary Tree"
+  ]
+ },
+ {
+  "slug": "flatten-binary-tree-to-linked-list",
+  "name": "Flatten Binary Tree to Linked List",
+  "titles": [
+   "Flatten Binary Tree to Linked List",
+   "Flatten BT to LL",
+   "Flatten a Binary Tree to Linked List"
+  ]
+ },
+ {
+  "slug": "construct-tree-1",
+  "name": "Construct Tree from Inorder & Preorder",
+  "titles": [
+   "Construct Binary Tree from Preorder and Inorder Traversal",
+   "Construct a BT from Preorder and Inorder"
+  ]
+ },
+ {
+  "slug": "tree-from-postorder-and-inorder",
+  "name": "Binary Tree from Inorder and Postorder",
+  "titles": [
+   "Construct Binary Tree from Inorder and Postorder Traversal",
+   "Construct a BT from Postorder and Inorder"
+  ]
+ },
+ {
+  "slug": "serialize-and-deserialize-a-binary-tree",
+  "name": "Serialize and Deserialize a Binary Tree",
+  "titles": [
+   "Serialize and Deserialize Binary Tree",
+   "Serialize and De-serialize BT"
+  ]
+ },
+ {
+  "slug": "search-a-node-in-bst",
+  "name": "Search in BST",
+  "titles": [
+   "Search in a Binary Search Tree",
+   "Search in BST"
+  ]
+ },
+ {
+  "slug": "insert-a-node-in-a-bst",
+  "name": "BST Insert",
+  "titles": [
+   "Insert into a Binary Search Tree",
+   "Insert a given node in BST"
+  ]
+ },
+ {
+  "slug": "delete-a-node-from-bst",
+  "name": "Delete from BST",
+  "titles": [
+   "Delete Node in a BST",
+   "Delete a node in BST"
+  ]
+ },
+ {
+  "slug": "find-k-th-smallest-element-in-bst",
+  "name": "k-th Smallest in BST",
+  "titles": [
+   "Find Kth Smallest/Largest Element in BST",
+   "Kth Smallest and Largest element in BST"
+  ]
+ },
+ {
+  "slug": "check-for-bst",
+  "name": "Check for BST",
+  "titles": [
+   "Validate Binary Search Tree",
+   "Check if a tree is a BST or not"
+  ]
+ },
+ {
+  "slug": "lowest-common-ancestor-in-a-bst",
+  "name": "Lowest Common Ancestor in a BST",
+  "titles": [
+   "Lowest Common Ancestor of a Binary Search Tree",
+   "LCA in BST",
+   "LCA in Binary Search Tree",
+   "LCA of BST"
+  ]
+ },
+ {
+  "slug": "preorder-to-postorder4423",
+  "name": "Preorder to BST",
+  "titles": [
+   "Construct Binary Search Tree from Preorder Traversal",
+   "Construct a BST from a preorder traversal"
+  ]
+ },
+ {
+  "slug": "predecessor-and-successor",
+  "name": "Predecessor and Successor in BST",
+  "titles": [
+   "Inorder Successor/Predecessor in BST",
+   "Inorder successor and predecessor in BST"
+  ]
+ },
+ {
+  "slug": "find-a-pair-with-given-target-in-bst",
+  "name": "Pair Sum in BST",
+  "titles": [
+   "Two Sum IV - Input is a BST",
+   "Two sum in BST"
+  ]
+ },
+ {
+  "slug": "fixed-two-nodes-of-a-bst",
+  "name": "Fixing Two Nodes of BST",
+  "titles": [
+   "Recover Binary Search Tree",
+   "Correct BST with two nodes swapped"
+  ]
+ },
+ {
+  "slug": "largest-bst",
+  "name": "Largest BST",
+  "titles": [
+   "Largest BST in Binary Tree"
+  ]
+ },
+ {
+  "slug": "heap-sort",
+  "name": "Heap Sort",
+  "titles": [
+   "Heapify Algorithm",
+   "Build heap from a given Array",
+   "Heap Sort"
+  ]
+ },
+ {
+  "slug": "operations-on-binary-min-heap",
+  "name": "Binary Heap Operations",
+  "titles": [
+   "Implement Min Heap",
+   "Implement Max Heap"
+  ]
+ },
+ {
+  "slug": "does-array-represent-heap4345",
+  "name": "Check if Array is Max Heap",
+  "titles": [
+   "Check if an array represents a min heap"
+  ]
+ },
+ {
+  "slug": "k-largest-elements4206",
+  "name": "k Largest Elements",
+  "titles": [
+   "Kth Largest Element in an Array",
+   "K-th Largest element in an array"
+  ]
+ },
+ {
+  "slug": "kth-largest-element-in-a-stream2220",
+  "name": "Kth Largest in a Stream",
+  "titles": [
+   "Kth Largest Element in a Stream",
+   "Kth largest element in a stream of running integers"
+  ]
+ },
+ {
+  "slug": "bfs-traversal-of-graph",
+  "name": "BFS of Graph",
+  "titles": [
+   "Traversal Techniques"
+  ]
+ },
+ {
+  "slug": "number-of-provinces",
+  "name": "Number of Connected Components",
+  "titles": [
+   "Number of Provinces",
+   "Connected Components",
+   "Find Number of Provinces",
+   "Number of provinces"
+  ]
+ },
+ {
+  "slug": "find-the-number-of-islands",
+  "name": "Count Islands",
+  "titles": [
+   "Number of islands"
+  ]
+ },
+ {
+  "slug": "flood-fill-algorithm1856",
+  "name": "Flood fill Algorithm",
+  "titles": [
+   "Flood Fill",
+   "Flood fill algorithm"
+  ]
+ },
+ {
+  "slug": "rotten-oranges2536",
+  "name": "Rotten Oranges",
+  "titles": [
+   "Rotten Oranges"
+  ]
+ },
+ {
+  "slug": "distance-of-nearest-cell-having-1-1587115620",
+  "name": "Distance of nearest cell having 1",
+  "titles": [
+   "01 Matrix (Distance of nearest cell having 1)",
+   "Distance of nearest cell having one"
+  ]
+ },
+ {
+  "slug": "replace-os-with-xs0052",
+  "name": "Replace O's with X's",
+  "titles": [
+   "Surrounded Regions"
+  ]
+ },
+ {
+  "slug": "number-of-distinct-islands",
+  "name": "Number of Distinct Islands",
+  "titles": [
+   "Number of Distinct Islands",
+   "Number of distinct islands"
+  ]
+ },
+ {
+  "slug": "course-schedule",
+  "name": "A Valid Order to Complete Tasks",
+  "titles": [
+   "Course Schedule",
+   "Detect a cycle in an undirected graph",
+   "Detect a cycle in a directed graph",
+   "Course Schedule I"
+  ]
+ },
+ {
+  "slug": "bipartite-graph",
+  "name": "Bipartite Graph",
+  "titles": [
+   "Is Graph Bipartite?",
+   "Bipartite graph"
+  ]
+ },
+ {
+  "slug": "topological-sort",
+  "name": "Topological Sort",
+  "titles": [
+   "Topological sort or Kahn's algorithm"
+  ]
+ },
+ {
+  "slug": "eventual-safe-states",
+  "name": "Safe States",
+  "titles": [
+   "Find eventual safe states"
+  ]
+ },
+ {
+  "slug": "alien-dictionary",
+  "name": "Alien Dictionary",
+  "titles": [
+   "Alien Dictionary"
+  ]
+ },
+ {
+  "slug": "shortest-path-in-undirected-graph-having-unit-distance",
+  "name": "Shortest Path in Unweighted Graph",
+  "titles": [
+   "Shortest path in undirected graph with unit weights"
+  ]
+ },
+ {
+  "slug": "word-ladder",
+  "name": "Shortest Transformation Length in a Word List",
+  "titles": [
+   "Word Ladder I",
+   "Word ladder I"
+  ]
+ },
+ {
+  "slug": "word-ladder-ii",
+  "name": "Shortest Transformation Sequences in a Word List",
+  "titles": [
+   "Word Ladder II",
+   "Word ladder II"
+  ]
+ },
+ {
+  "slug": "implementing-dijkstra-set-1-adjacency-matrix",
+  "name": "Dijkstra Algorithm",
+  "titles": [
+   "Dijkstra's Algorithm",
+   "Dijkstra's algorithm",
+   "Implementing Dijkstra Algorithm"
+  ]
+ },
+ {
+  "slug": "shortest-path-in-weighted-undirected-graph",
+  "name": "Shortest Path in an Undirected Graph",
+  "titles": [
+   "Print Shortest Path",
+   "Shortest Path in Weighted undirected graph"
+  ]
+ },
+ {
+  "slug": "path-with-minimum-effort",
+  "name": "Path With Minimum Effort",
+  "titles": [
+   "Path With Minimum Effort",
+   "Path with minimum effort"
+  ]
+ },
+ {
+  "slug": "minimum-multiplications-to-reach-end",
+  "name": "Minimum Multiplications to reach End",
+  "titles": [
+   "Minimum Multiplications to Reach End",
+   "Minimum Multiplications to reach End",
+   "Minimum multiplications to reach end"
+  ]
+ },
+ {
+  "slug": "number-of-ways-to-arrive-at-destination",
+  "name": "Number of Ways to Arrive at Destination",
+  "titles": [
+   "Number of Ways to Arrive at Destination",
+   "Number of ways to arrive at destination"
+  ]
+ },
+ {
+  "slug": "distance-from-the-source-bellman-ford-algorithm",
+  "name": "Bellman Ford",
+  "titles": [
+   "Bellman Ford Algorithm",
+   "Bellman ford algorithm",
+   "Distance from the source (Bellman-Ford Algorithm)"
+  ]
+ },
+ {
+  "slug": "city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+  "name": "Most Isolated City",
+  "titles": [
+   "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+   "City With the Smallest Number of Neighbors at a Threshold Distance",
+   "Find the city with the smallest number of neighbors"
+  ]
+ },
+ {
+  "slug": "disjoint-set-union-find",
+  "name": "Disjoint set (Union-Find)",
+  "titles": [
+   "Disjoint Set"
+  ]
+ },
+ {
+  "slug": "minimum-spanning-tree",
+  "name": "Minimum Spanning Tree",
+  "titles": [
+   "Find the MST weight"
+  ]
+ },
+ {
+  "slug": "connecting-the-graph",
+  "name": "Min Edge Movements to Connect a Graph",
+  "titles": [
+   "Number of Operations to Make Network Connected",
+   "Number of operations to make network connected"
+  ]
+ },
+ {
+  "slug": "merging-details",
+  "name": "Merging Details",
+  "titles": [
+   "Accounts Merge",
+   "Accounts merge"
+  ]
+ },
+ {
+  "slug": "number-of-islands",
+  "name": "Number of Islands After K Operations",
+  "titles": [
+   "Number of islands II"
+  ]
+ },
+ {
+  "slug": "maximum-stone-removal-1662179442",
+  "name": "Maximum Stone Removal",
+  "titles": [
+   "Most Stones Removed with Same Row or Column",
+   "Most stones removed with same row or column"
+  ]
+ },
+ {
+  "slug": "strongly-connected-components-kosarajus-algo",
+  "name": "Count Strongly Connected Components",
+  "titles": [
+   "Kosaraju's algorithm"
+  ]
+ },
+ {
+  "slug": "count-ways-to-reach-the-nth-stair-1587115620",
+  "name": "Ways to Reach the n'th Stair",
+  "titles": [
+   "Climbing Stairs",
+   "Climbing stairs"
+  ]
+ },
+ {
+  "slug": "geek-jump",
+  "name": "Frog Jump",
+  "titles": [
+   "Frog Jump"
+  ]
+ },
+ {
+  "slug": "minimal-cost",
+  "name": "Minimal Cost of Jumps",
+  "titles": [
+   "Frog Jump with k distances",
+   "Frog jump with K distances"
+  ]
+ },
+ {
+  "slug": "stickler-theif-1587115621",
+  "name": "Stickler Thief",
+  "titles": [
+   "House Robber",
+   "Maximum sum of non adjacent elements"
+  ]
+ },
+ {
+  "slug": "house-robber-ii",
+  "name": "Stickler Thief II",
+  "titles": [
+   "House Robber II",
+   "House robber"
+  ]
+ },
+ {
+  "slug": "geeks-training",
+  "name": "Geek's Training",
+  "titles": [
+   "Ninja's Training",
+   "Ninja's training"
+  ]
+ },
+ {
+  "slug": "unique-paths-in-a-grid--170647",
+  "name": "Unique Paths in a Grid",
+  "titles": [
+   "Unique Paths II",
+   "Unique paths II"
+  ]
+ },
+ {
+  "slug": "minimum-cost-path3833",
+  "name": "Minimum Cost Path with 4 Moves",
+  "titles": [
+   "Minimum Path Sum in Grid",
+   "Minimum Falling Path Sum"
+  ]
+ },
+ {
+  "slug": "triangle-path-sum",
+  "name": "Triangle Path Sum",
+  "titles": [
+   "Triangle"
+  ]
+ },
+ {
+  "slug": "chocolates-pickup",
+  "name": "Chocolates Pickup",
+  "titles": [
+   "Cherry Pickup II",
+   "Cherry pickup II"
+  ]
+ },
+ {
+  "slug": "stock-buy-and-sell2615",
+  "name": "Stock Buy and Sell – Multiple Transaction Allowed",
+  "titles": [
+   "Best Time to Buy and Sell Stock",
+   "Best time to buy and sell stock",
+   "Best Time to Buy and Sell Stock II",
+   "Best time to buy and sell stock II"
+  ]
+ },
+ {
+  "slug": "buy-and-sell-a-share-at-most-twice",
+  "name": "Stock Buy and Sell – Max 2 Transactions Allowed",
+  "titles": [
+   "Best Time to Buy and Sell Stock III",
+   "Best time to buy and sell stock III"
+  ]
+ },
+ {
+  "slug": "maximum-profit4657",
+  "name": "Stock Buy and Sell – Max K Transactions Allowed",
+  "titles": [
+   "Best Time to Buy and Sell Stock IV",
+   "Best time to buy and sell stock IV"
+  ]
+ },
+ {
+  "slug": "buy-stock-with-transaction-fee",
+  "name": "Buy Stock with Transaction Fee",
+  "titles": [
+   "Best Time to Buy and Sell Stock with Transaction Fee",
+   "Best time to buy and sell stock with transaction fees"
+  ]
+ },
+ {
+  "slug": "0-1-knapsack-problem0945",
+  "name": "0 - 1 Knapsack Problem",
+  "titles": [
+   "0/1 Knapsack",
+   "Partition equal subset sum",
+   "0 and 1 Knapsack"
+  ]
+ },
+ {
+  "slug": "minimum-sum-partition3317",
+  "name": "Partition Into 2 Subsets with Min Sum Diff",
+  "titles": [
+   "Partition Set Into 2 Subsets With Min Absolute Sum Diff",
+   "Partition a set into two subsets with minimum absolute sum difference"
+  ]
+ },
+ {
+  "slug": "partitions-with-given-difference",
+  "name": "Partitions with Given Difference",
+  "titles": [
+   "Count Partitions with Given Difference",
+   "Count partitions with given difference"
+  ]
+ },
+ {
+  "slug": "coin-change2448",
+  "name": "Coin Change (Count Ways)",
+  "titles": [
+   "Coin Change",
+   "Minimum coins"
+  ]
+ },
+ {
+  "slug": "target-sum-1626326450",
+  "name": "Target Sum",
+  "titles": [
+   "Target Sum",
+   "Target sum"
+  ]
+ },
+ {
+  "slug": "knapsack-with-duplicate-items4201",
+  "name": "Knapsack with Duplicate Items",
+  "titles": [
+   "Unbounded Knapsack",
+   "Unbounded knapsack"
+  ]
+ },
+ {
+  "slug": "rod-cutting0840",
+  "name": "Rod Cutting",
+  "titles": [
+   "Rod Cutting Problem",
+   "Rod cutting problem"
+  ]
+ },
+ {
+  "slug": "longest-increasing-subsequence-1587115620",
+  "name": "Longest Increasing Subsequence",
+  "titles": [
+   "Longest Increasing Subsequence"
+  ]
+ },
+ {
+  "slug": "printing-longest-increasing-subsequence",
+  "name": "Get Longest Increasing Subsequence",
+  "titles": [
+   "Print Longest Increasing Subsequence"
+  ]
+ },
+ {
+  "slug": "longest-string-chain",
+  "name": "Longest String Chain",
+  "titles": [
+   "Longest String Chain"
+  ]
+ },
+ {
+  "slug": "longest-bitonic-subsequence0824",
+  "name": "Longest Bitonic Subsequence",
+  "titles": [
+   "Longest Bitonic Subsequence"
+  ]
+ },
+ {
+  "slug": "number-of-longest-increasing-subsequence",
+  "name": "Number of Longest Increasing Subsequence",
+  "titles": [
+   "Number of Longest Increasing Subsequences"
+  ]
+ },
+ {
+  "slug": "longest-common-subsequence-1587115620",
+  "name": "Longest Common Subsequence",
+  "titles": [
+   "Longest Common Subsequence",
+   "Longest common subsequence"
+  ]
+ },
+ {
+  "slug": "longest-common-substring1452",
+  "name": "Longest Common Substring",
+  "titles": [
+   "Longest Common Substring",
+   "Longest common substring"
+  ]
+ },
+ {
+  "slug": "longest-palindromic-subsequence-1612327878",
+  "name": "Longest Palindromic Subsequence",
+  "titles": [
+   "Longest Palindromic Subsequence",
+   "Longest palindromic subsequence"
+  ]
+ },
+ {
+  "slug": "minimum-number-of-deletions-and-insertions0209",
+  "name": "Transform using Minimum Insert and Delete",
+  "titles": [
+   "Minimum Insertions/Deletions to Convert String A to B",
+   "Minimum insertions or deletions to convert string A to B"
+  ]
+ },
+ {
+  "slug": "shortest-common-supersequence0322",
+  "name": "Shortest Common Supersequence",
+  "titles": [
+   "Shortest Common Supersequence",
+   "Shortest common supersequence"
+  ]
+ },
+ {
+  "slug": "number-of-distinct-subsequences0909",
+  "name": "Count Distinct Subsequences",
+  "titles": [
+   "Distinct Subsequences",
+   "Distinct subsequences"
+  ]
+ },
+ {
+  "slug": "edit-distance3702",
+  "name": "Edit Distance",
+  "titles": [
+   "Edit Distance",
+   "Edit distance"
+  ]
+ },
+ {
+  "slug": "wildcard-pattern-matching",
+  "name": "Wildcard Pattern Matching",
+  "titles": [
+   "Wildcard Matching",
+   "Wildcard matching"
+  ]
+ },
+ {
+  "slug": "matrix-chain-multiplication0303",
+  "name": "Matrix Chain Multiplication",
+  "titles": [
+   "Matrix Chain Multiplication",
+   "Matrix chain multiplication"
+  ]
+ },
+ {
+  "slug": "partition-array-for-maximum-sum",
+  "name": "Partition Array for Maximum Sum",
+  "titles": [
+   "Partition Array for Maximum Sum"
+  ]
+ },
+ {
+  "slug": "trie-delete",
+  "name": "Trie Delete",
+  "titles": [
+   "Implement Trie II (Prefix Tree)",
+   "Trie Implementation and Operations",
+   "Trie Implementation and Advanced Operations"
+  ]
+ },
+ {
+  "slug": "find-the-longest-string--170645",
+  "name": "Find the longest string",
+  "titles": [
+   "Longest Word with All Prefixes"
+  ]
+ },
+ {
+  "slug": "count-of-distinct-substrings",
+  "name": "Count Distinct Substrings",
+  "titles": [
+   "Number of Distinct Substrings in a String",
+   "Number of distinct substrings in a string"
+  ]
+ },
+ {
+  "slug": "maximum-xor-of-two-numbers-in-an-array",
+  "name": "Maximum XOR of two numbers in an array",
+  "titles": [
+   "Maximum XOR of Two Numbers in an Array",
+   "Maximum XOR of two numbers in an array"
+  ]
+ },
+ {
+  "slug": "maximum-xor-with-an-element-from-array",
+  "name": "Maximum XOR With an Element From Array",
+  "titles": [
+   "Maximum XOR With an Element From Array",
+   "Maximum Xor with an element from an array"
+  ]
+ },
+ {
+  "slug": "reverse-words-in-a-given-string5459",
+  "name": "Reverse Words",
+  "titles": [
+   "Reverse Words in a String",
+   "Reverse every word in a string"
+  ]
+ },
+ {
+  "slug": "decode-the-pattern1138",
+  "name": "Look and Say Pattern",
+  "titles": [
+   "Count and Say",
+   "Count and say"
+  ]
+ },
+ {
+  "slug": "search-pattern0205",
+  "name": "Search Pattern",
+  "titles": [
+   "KMP Algorithm or LPS array"
+  ]
+ },
+ {
+  "slug": "minimum-characters-to-be-added-at-front-to-make-string-palindrome",
+  "name": "Min Chars to Add for Palindrome",
+  "titles": [
+   "Shortest Palindrome"
+  ]
+ },
+ {
+  "slug": "longest-prefix-suffix2527",
+  "name": "Longest Prefix Suffix",
+  "titles": [
+   "Longest Happy Prefix",
+   "Longest happy prefix"
+  ]
+ },
+ {
+  "slug": "prime-factors5052",
+  "name": "Unique Prime Factors in Sorted Order",
+  "titles": [
+   "Prime factorisation of a Number"
+  ]
+ },
+ {
+  "slug": "print-square-wall-1605682270",
+  "name": "Print Solid Square",
+  "titles": []
+ },
+ {
+  "slug": "right-angled-number-triangle",
+  "name": "Right-Angled Number Triangle Pattern",
+  "titles": []
+ },
+ {
+  "slug": "pyramid-patterns",
+  "name": "Pyramid Pattern",
+  "titles": []
+ },
+ {
+  "slug": "right-angle-triangle-1605685807",
+  "name": "Solid Right Angle Triangle Pattern",
+  "titles": []
+ },
+ {
+  "slug": "count-digits-in-given-number-n-which-divide-n3331",
+  "name": "Digits in N that Divide it",
+  "titles": []
+ },
+ {
+  "slug": "sorting-elements-of-an-array-by-frequency-1587115621",
+  "name": "Sort Elements by Decreasing Frequency",
+  "titles": []
+ },
+ {
+  "slug": "combination-sum-ii-1664263832",
+  "name": "Combination Sum Without Repetition",
+  "titles": []
+ },
+ {
+  "slug": "create-a-doubly-linked-list-from-a-given-array",
+  "name": "Doubly Linked List from an Array",
+  "titles": []
+ },
+ {
+  "slug": "find-unique-number",
+  "name": "Unique Number I",
+  "titles": []
+ },
+ {
+  "slug": "bus-ticket-change",
+  "name": "Bus Ticket Change",
+  "titles": []
+ },
+ {
+  "slug": "activity-selection-1587115620",
+  "name": "Activity Selection",
+  "titles": []
+ },
+ {
+  "slug": "longest-distinct-characters-in-string5848",
+  "name": "Longest Substring with Distinct Characters",
+  "titles": []
+ },
+ {
+  "slug": "longest-subarray-with-atmost-two-distinct-integers",
+  "name": "Longest Subarray with Atmost Two Distinct",
+  "titles": []
+ },
+ {
+  "slug": "stack-using-queue",
+  "name": "Stack using Queue",
+  "titles": []
+ },
+ {
+  "slug": "queue-using-stack",
+  "name": "Queue using Stack",
+  "titles": []
+ },
+ {
+  "slug": "next-larger-element-1587115620",
+  "name": "Next Greater Element",
+  "titles": []
+ },
+ {
+  "slug": "opposite-sign-pair-reduction",
+  "name": "Opposite Sign Pair Reduction",
+  "titles": []
+ },
+ {
+  "slug": "closest-neighbor-in-bst",
+  "name": "Floor in BST",
+  "titles": []
+ },
+ {
+  "slug": "1s-surrounded-by-0s",
+  "name": "1s Surrounded by 0s",
+  "titles": []
+ },
+ {
+  "slug": "shortest-path-in-directed-acyclic-graph",
+  "name": "Shortest Path in Directed Acyclic Graph",
+  "titles": []
+ },
+ {
+  "slug": "shortest-path-with-at-most-k-nodes",
+  "name": "Shortest Path with at most k Nodes",
+  "titles": []
+ },
+ {
+  "slug": "maximum-connected-group",
+  "name": "Maximum Connected with One Change",
+  "titles": []
+ },
+ {
+  "slug": "articulation-point2616",
+  "name": "Articulation Point",
+  "titles": []
+ },
+ {
+  "slug": "number-of-paths0926",
+  "name": "Count Paths from Top Left to Bottom Right",
+  "titles": []
+ },
+ {
+  "slug": "form-a-palindrome2544",
+  "name": "Minimum Insertions for Palindrome",
+  "titles": []
+ },
+ {
+  "slug": "maximum-triple-product",
+  "name": "Maximum Score Using Neighbor Products",
+  "titles": []
+ }
+]
