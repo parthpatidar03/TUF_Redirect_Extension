@@ -29,7 +29,7 @@
     const needle = term.trim().toLowerCase();
     if (!needle) return problems.slice(0, MAX_RESULTS);
     const hits = [];
-    for (let i = 0; i < problems.length && hits.length < 400; i++) {
+    for (let i = 0; i < problems.length; i++) {
       const score = scoreOf(problems[i].search, needle);
       if (score !== -1) hits.push({ p: problems[i], score: score, i: i });
     }
@@ -111,9 +111,9 @@
       loadJson('data/problems.json')
     ]);
 
-    resolver = new self.DsaBridgeResolver.Resolver({ leetcode: leetcode, gfg: gfg, overrides: overrides });
+    resolver = new self.TufRedirectResolver.Resolver({ leetcode: leetcode, gfg: gfg, overrides: overrides });
     problems = catalogue.map(function (row) {
-      const title = self.DsaBridgeResolver.cleanTitle(row[0]);
+      const title = self.TufRedirectResolver.cleanTitle(row[0]);
       return { title: title, difficulty: row[1], search: title.toLowerCase() };
     });
 
@@ -131,6 +131,6 @@
 
   init().catch(function (err) {
     resultsEl.innerHTML = '<p class="empty">Could not load problem data.</p>';
-    console.error('[DSA Bridge]', err);
+    console.error('[TUF Redirect]', err);
   });
 })();

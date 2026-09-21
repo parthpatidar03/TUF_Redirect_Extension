@@ -6,7 +6,7 @@
  * theme values, used only if those variables ever disappear.
  */
 
-.dsab-links {
+.tufr-links {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
@@ -18,21 +18,21 @@
  * would sit beside the title. Claim a full line instead, and let the container
  * wrap only on the rows we have actually touched.
  */
-.dsab-links {
+.tufr-links {
   flex: 0 0 100%;
   min-width: 0;
 }
 
-:where(div):has(> .dsab-links) {
+:where(div):has(> .tufr-links) {
   flex-wrap: wrap;
 }
 
-.dsab-links--heading {
+.tufr-links--heading {
   margin-top: 10px;
   margin-bottom: 4px;
 }
 
-.dsab-link {
+.tufr-link {
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -52,42 +52,47 @@
   transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
 }
 
-.dsab-link:hover {
+.tufr-link:hover {
   background: var(--color-brand-primary-bg-2, #111827);
   border-color: var(--color-brand-primary, #327cf6);
   color: var(--color-foreground, #fcfcfd);
   text-decoration: none;
 }
 
-.dsab-link:focus-visible {
+.tufr-link:focus-visible {
   outline: 2px solid var(--color-brand-primary, #327cf6);
   outline-offset: 1px;
 }
 
-.dsab-link[hidden] {
+.tufr-link[hidden] {
   display: none;
 }
 
-.dsab-link svg {
+/* Both badges switched off: collapse the row rather than leave its margin. */
+.tufr-links:not(:has(.tufr-link:not([hidden]))) {
+  display: none;
+}
+
+.tufr-link svg {
   width: 11px;
   height: 11px;
   flex: 0 0 auto;
 }
 
-.dsab-link--leetcode svg { fill: #ffa116; }
-.dsab-link--gfg svg { fill: #2f8d46; }
+.tufr-link--leetcode svg { fill: #ffa116; }
+.tufr-link--gfg svg { fill: #2f8d46; }
 
 /* A search link, not a direct problem link: same shape, quieter. */
-.dsab-link--search {
+.tufr-link--search {
   border-style: dashed;
   opacity: 0.72;
 }
 
-.dsab-link--search:hover {
+.tufr-link--search:hover {
   opacity: 1;
 }
 
 @media (max-width: 720px) {
-  .dsab-link span { display: none; }
-  .dsab-link { padding: 3px 5px; }
+  .tufr-link span { display: none; }
+  .tufr-link { padding: 3px 5px; }
 }
