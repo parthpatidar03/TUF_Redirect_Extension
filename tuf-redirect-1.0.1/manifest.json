@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "TUF External Link Redirect - LeetCode & GFG",
   "short_name": "TUF Redirect",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "minimum_chrome_version": "105",
   "description": "Adds an External Link column to takeUforward's DSA practice sheets with direct LeetCode and GeeksforGeeks links.",
   "author": "Parth Patidar",

@@ -1,0 +1,434 @@
+{
+ "search x in sorted array": {
+  "l": "binary-search"
+ },
+ "level order traversal": {
+  "l": "binary-tree-level-order-traversal"
+ },
+ "trapping rainwater": {
+  "l": "trapping-rain-water",
+  "g": "trapping-rain-water-1587115621"
+ },
+ "trie implementation and operations": {
+  "l": "implement-trie-prefix-tree",
+  "g": "trie-insert-and-search0651"
+ },
+ "trie implementation and advanced operations": {
+  "l": "implement-trie-ii-prefix-tree"
+ },
+ "kadanes algorithm": {
+  "l": "maximum-subarray",
+  "g": "kadanes-algorithm-1587115620"
+ },
+ "count the number of set bits": {
+  "l": "number-of-1-bits"
+ },
+ "grid unique paths": {
+  "l": "unique-paths"
+ },
+ "rotten oranges": {
+  "l": "rotting-oranges",
+  "g": "rotten-oranges2536"
+ },
+ "maximum path sum": {
+  "l": "binary-tree-maximum-path-sum"
+ },
+ "detect a loop in ll": {
+  "l": "linked-list-cycle"
+ },
+ "implement min stack": {
+  "l": "min-stack"
+ },
+ "inorder traversal": {
+  "l": "binary-tree-inorder-traversal"
+ },
+ "preorder traversal": {
+  "l": "binary-tree-preorder-traversal"
+ },
+ "postorder traversal": {
+  "l": "binary-tree-postorder-traversal"
+ },
+ "morris inorder traversal": {
+  "l": "binary-tree-inorder-traversal",
+  "g": "inorder-traversal"
+ },
+ "morris preorder traversal": {
+  "l": "binary-tree-preorder-traversal",
+  "g": "preorder-traversal"
+ },
+ "kth smallest and largest element in bst": {
+  "l": "kth-smallest-element-in-a-bst"
+ },
+ "sort an array of 0s 1s and 2s": {
+  "l": "sort-colors"
+ },
+ "reverse ll in group of given size k": {
+  "l": "reverse-nodes-in-k-group"
+ },
+ "maximum product subarray in an array": {
+  "l": "maximum-product-subarray"
+ },
+ "check for balanced binary tree": {
+  "l": "balanced-binary-tree"
+ },
+ "right left view of bt": {
+  "l": "binary-tree-right-side-view"
+ },
+ "implement queue using stack": {
+  "l": "implement-queue-using-stacks"
+ },
+ "implement stack using queue": {
+  "l": "implement-stack-using-queues"
+ },
+ "serialize and de serialize bt": {
+  "l": "serialize-and-deserialize-binary-tree"
+ },
+ "rotate matrix by 90 degrees": {
+  "l": "rotate-image"
+ },
+ "cheapest flight within k stops": {
+  "l": "cheapest-flights-within-k-stops"
+ },
+ "check if a tree is a bst or not": {
+  "l": "validate-binary-search-tree"
+ },
+ "n queen": {
+  "l": "n-queens"
+ },
+ "check if two trees are identical or not": {
+  "l": "same-tree"
+ },
+ "remove nth node from the back of the ll": {
+  "l": "remove-nth-node-from-end-of-list"
+ },
+ "add two numbers in linked list": {
+  "l": "add-two-numbers"
+ },
+ "longest consecutive sequence in an array": {
+  "l": "longest-consecutive-sequence"
+ },
+ "reverse a number": {
+  "l": "reverse-integer"
+ },
+ "check for symmetrical bts": {
+  "l": "symmetric-tree"
+ },
+ "print the matrix in spiral manner": {
+  "l": "spiral-matrix"
+ },
+ "segregate odd and even nodes in linked list": {
+  "l": "odd-even-linked-list"
+ },
+ "find missing number": {
+  "l": "missing-number"
+ },
+ "merge overlapping subintervals": {
+  "l": "merge-intervals"
+ },
+ "kth largest element in a stream of running integers": {
+  "l": "kth-largest-element-in-a-stream"
+ },
+ "two sum in bst": {
+  "l": "two-sum-iv-input-is-a-bst"
+ },
+ "minimum time taken to burn the bt from a given node": {
+  "l": "amount-of-time-for-binary-tree-to-be-infected"
+ },
+ "sort ll": {
+  "l": "sort-list"
+ },
+ "group words by anagrams": {
+  "l": "group-anagrams"
+ },
+ "largest bst in binary tree": {
+  "l": "largest-bst-subtree"
+ },
+ "rotate a ll": {
+  "l": "rotate-list"
+ },
+ "find middle of linked list": {
+  "l": "middle-of-the-linked-list"
+ },
+ "balanced paranthesis": {
+  "l": "valid-parentheses"
+ },
+ "valid paranthesis checker": {
+  "l": "valid-parentheses"
+ },
+ "power set": {
+  "l": "subsets",
+  "g": "subsets-1613027340"
+ },
+ "power set bit manipulation": {
+  "l": "subsets",
+  "g": "subsets-1613027340"
+ },
+ "find the intersection point of y ll": {
+  "l": "intersection-of-two-linked-lists"
+ },
+ "minimum insertions to make string palindrome": {
+  "l": "minimum-insertion-steps-to-make-a-string-palindrome"
+ },
+ "flood fill algorithm": {
+  "l": "flood-fill"
+ },
+ "delete node in a linked list o 1": {
+  "l": "delete-node-in-a-linked-list"
+ },
+ "minimum coins": {
+  "l": "coin-change",
+  "g": "number-of-coins1824"
+ },
+ "reverse every word in a string": {
+  "l": "reverse-words-in-a-string"
+ },
+ "vertical order traversal": {
+  "l": "vertical-order-traversal-of-a-binary-tree"
+ },
+ "print root to leaf path in bt": {
+  "l": "binary-tree-paths"
+ },
+ "check if ll is palindrome or not": {
+  "l": "palindrome-linked-list"
+ },
+ "maximum consecutive ones": {
+  "l": "max-consecutive-ones"
+ },
+ "maximum points on a line": {
+  "l": "max-points-on-a-line"
+ },
+ "stock span problem": {
+  "l": "online-stock-span"
+ },
+ "find the starting point in ll": {
+  "l": "linked-list-cycle-ii"
+ },
+ "find median in a stream": {
+  "l": "find-median-from-data-stream",
+  "g": "find-median-in-a-stream-1587115620"
+ },
+ "move zeros to end": {
+  "l": "move-zeroes"
+ },
+ "set difference of two arrays": {
+  "l": "find-the-difference-of-two-arrays"
+ },
+ "celebrity problem": {
+  "l": "find-the-celebrity",
+  "g": "the-celebrity-problem"
+ },
+ "clone a ll with random and next pointer": {
+  "l": "copy-list-with-random-pointer"
+ },
+ "bridges in graph": {
+  "l": "critical-connections-in-a-network",
+  "g": "bridge-edge-in-graph"
+ },
+ "merge two sorted arrays without extra space": {
+  "l": "merge-sorted-array"
+ },
+ "zig zag or spiral traversal": {
+  "l": "binary-tree-zigzag-level-order-traversal"
+ },
+ "find the repeating and missing number": {
+  "l": "set-mismatch"
+ },
+ "count total nodes in a complete bt": {
+  "l": "count-complete-tree-nodes"
+ },
+ "best time to buy and sell stock with transaction fees": {
+  "l": "best-time-to-buy-and-sell-stock-with-transaction-fee"
+ },
+ "check if string is palindrome or not": {
+  "l": "valid-palindrome"
+ },
+ "first and last occurrence": {
+  "l": "find-first-and-last-position-of-element-in-sorted-array"
+ },
+ "find the position of a substring within a string": {
+  "l": "find-the-index-of-the-first-occurrence-in-a-string"
+ },
+ "check if a number is power of 2 or not": {
+  "l": "power-of-two"
+ },
+ "count of subarrays with sum divisible by k": {
+  "l": "subarray-sums-divisible-by-k"
+ },
+ "correct bst with two nodes swapped": {
+  "l": "recover-binary-search-tree"
+ },
+ "partition a set into two subsets with minimum absolute sum difference": {
+  "l": "last-stone-weight-ii"
+ },
+ "find the smallest divisor": {
+  "l": "find-the-smallest-divisor-given-a-threshold"
+ },
+ "number of longest increasing subsequences": {
+  "l": "number-of-longest-increasing-subsequence"
+ },
+ "count subarrays with given sum": {
+  "l": "subarray-sum-equals-k"
+ },
+ "finding equilibrium index in an array": {
+  "l": "find-pivot-index"
+ },
+ "k nearest integers": {
+  "l": "find-k-closest-elements"
+ },
+ "maximum rectangles": {
+  "l": "maximal-rectangle"
+ },
+ "divide two numbers without multiplication and division": {
+  "l": "divide-two-integers"
+ },
+ "construct a bt from preorder and inorder": {
+  "l": "construct-binary-tree-from-preorder-and-inorder-traversal"
+ },
+ "construct a bt from postorder and inorder": {
+  "l": "construct-binary-tree-from-inorder-and-postorder-traversal"
+ },
+ "maximum sum of non adjacent elements": {
+  "l": "house-robber"
+ },
+ "print all nodes at a distance of k in bt": {
+  "l": "all-nodes-distance-k-in-binary-tree"
+ },
+ "minimum days to make m bouquets": {
+  "l": "minimum-number-of-days-to-make-m-bouquets"
+ },
+ "insert a given node in bst": {
+  "l": "insert-into-a-binary-search-tree"
+ },
+ "critical and pseudo critical edges in mst": {
+  "l": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree"
+ },
+ "prison cells state after n days": {
+  "l": "prison-cells-after-n-days"
+ },
+ "maximal range that each element is maximal in it": {
+  "l": "maximal-range-that-each-element-is-maximum-in-it"
+ },
+ "minimum time to visit houses": {
+  "l": "minimum-time-to-visit-all-houses"
+ },
+ "non decreasing arrays with given digit sums": {
+  "l": "count-non-decreasing-arrays-with-given-digit-sums"
+ },
+ "maximum value in a constrained sequence": {
+  "l": "find-maximum-value-in-a-constrained-sequence"
+ },
+ "routes to climb a rectangular grid": {
+  "l": "count-routes-to-climb-a-rectangular-grid"
+ },
+ "reverse a ll": {
+  "g": "reverse-a-linked-list"
+ },
+ "number of islands": {
+  "g": "find-the-number-of-islands"
+ },
+ "maximum depth in bt": {
+  "g": "height-of-binary-tree"
+ },
+ "median of 2 sorted arrays": {
+  "g": "median-of-2-sorted-arrays-of-different-sizes"
+ },
+ "best time to buy and sell stock": {
+  "g": "buy-stock-2"
+ },
+ "subsets i": {
+  "g": "subsets-1613027340"
+ },
+ "partition equal subset sum": {
+  "g": "subset-sum-problem2014"
+ },
+ "lower bound": {
+  "g": "implement-lower-bound"
+ },
+ "upper bound": {
+  "g": "implement-upper-bound"
+ },
+ "linear search": {
+  "g": "search-an-element-in-an-array-1587115621"
+ },
+ "factorial of a given number": {
+  "g": "factorial5739"
+ },
+ "detect a cycle in an undirected graph": {
+  "g": "detect-cycle-in-an-undirected-graph"
+ },
+ "detect a cycle in a directed graph": {
+  "g": "detect-cycle-in-a-directed-graph"
+ },
+ "aggressive cows": {
+  "g": "aggressive-cows"
+ },
+ "book allocation problem": {
+  "g": "allocate-minimum-number-of-pages0937"
+ },
+ "job sequencing problem": {
+  "g": "job-sequencing-problem-1587115620"
+ },
+ "rod cutting problem": {
+  "g": "rod-cutting0840"
+ },
+ "bellman ford algorithm": {
+  "g": "distance-from-the-source-bellman-ford-algorithm"
+ },
+ "dijkstras algorithm": {
+  "g": "implementing-dijkstra-set-1-adjacency-matrix"
+ },
+ "topological sort or kahns algorithm": {
+  "g": "topological-sort"
+ },
+ "kosarajus algorithm": {
+  "g": "strongly-connected-components-kosarajus-algo"
+ },
+ "find the mst weight": {
+  "g": "minimum-spanning-tree"
+ },
+ "bottom view of bt": {
+  "g": "bottom-view-of-binary-tree"
+ },
+ "top view of bt": {
+  "g": "top-view-of-binary-tree"
+ },
+ "boundary traversal": {
+  "g": "boundary-traversal-of-binary-tree"
+ },
+ "next greater element": {
+  "g": "next-larger-element-1587115620"
+ },
+ "sort a stack": {
+  "g": "sort-a-stack"
+ },
+ "flattening of ll": {
+  "g": "flattening-a-linked-list"
+ },
+ "m coloring problem": {
+  "g": "m-coloring-problem-1587115620"
+ },
+ "matrix chain multiplication": {
+  "g": "matrix-chain-multiplication0303"
+ },
+ "fractional knapsack": {
+  "g": "fractional-knapsack-1587115620"
+ },
+ "0 and 1 knapsack": {
+  "g": "0-1-knapsack-problem0945"
+ },
+ "permutations of a string": {
+  "g": "permutations-of-a-given-string2041"
+ },
+ "children sum property in binary tree": {
+  "g": "children-sum-parent"
+ },
+ "maximum of minimums for every window size": {
+  "g": "maximum-of-minimum-for-every-window-size3453"
+ },
+ "implement stack using arrays": {
+  "g": "implement-stack-using-array"
+ },
+ "implement queue using arrays": {
+  "g": "implement-queue-using-array"
+ }
+}

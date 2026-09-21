@@ -147,22 +147,3 @@ body.off .section { opacity: 0.45; pointer-events: none; }
 
 .credit a { color: var(--muted); text-decoration: none; }
 .credit a:hover { color: var(--brand); text-decoration: underline; }
-
-.rate {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 7px;
-  margin: 0 16px 12px;
-  padding: 9px 12px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--card);
-  color: var(--muted);
-  font-size: 12px;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.rate:hover { border-color: var(--brand); background: var(--brand-bg); color: var(--fg); }
-.rate .stars { color: #e0a33a; letter-spacing: 1px; font-size: 11px; }
