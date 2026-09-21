@@ -136,3 +136,14 @@ body {
 }
 
 body.off .section { opacity: 0.45; pointer-events: none; }
+
+.credit {
+  padding: 10px 16px 12px;
+  border-top: 1px solid var(--border);
+  color: var(--dim);
+  font-size: 11px;
+  text-align: center;
+}
+
+.credit a { color: var(--muted); text-decoration: none; }
+.credit a:hover { color: var(--brand); text-decoration: underline; }
